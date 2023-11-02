@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Quentin Minziere</title>
+    <link rel="shortcut icon" type="image/png" href="http://example.com/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="./assets/images/logo.png" alt="">
+        </div>
+        <ul class="header-menu">
+            <li class="header-menu-link" onclick="toggleSubMenu(this)">File
+                <ul class="submenu">
+                    <li>
+                        Download CV <p>Ctrl+D</p>
+                    </li>
+                    <li>Generate Jokes <p>Ctrl+Alt+J</p>
+                    </li>
+                    <li>
+                        Find Hidden Bugs <p>Ctrl+Shift+B</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Open Code Treasure <p>Ctrl+T</p>
+                    </li>
+                    <li>
+                        Explore Easter Eggs <i class="fa fa-egg"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Save for Future Use <p>Ctrl+S</p>
+                    </li>
+                    <li>
+                        Save As Masterpiece <p>Ctrl+Shift+S</p>
+                    </li>
+                    <li>
+                        Save All Brilliant Ideas <p>Ctrl+K S</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Share Developer's Profile <i class="fa fa-chevron-right"></i></li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Auto Save (Like Magic)</li>
+                    <li>
+                        Customize Coding Preferences <i class="fa fa-chevron-right"></i></li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Revert File to the Good Old Days</li>
+                    <li>
+                        Close Editor's Secrets <p>Ctrl+F4</p>
+                    </li>
+                    <li>
+                        Close Coding Space <p>Ctrl+K F</p>
+                    </li>
+                    <li>
+                        Close Developer Portal <p>Alt+F4</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Exit Developer Mode
+                    </li>
+                </ul>
+            </li>
+            <li class="header-menu-link" onclick="toggleSubMenu(this)">Edit
+                <ul class="submenu">
+                    <li>
+                        Confundo Spell <p>Ctrl+Z</p>
+                    </li>
+                    <li>
+                        Time-Turner Magic <p>Ctrl+Y</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Scissors of Destiny <p>Ctrl+Y</p>
+                    </li>
+                    <li>
+                        Copy-Paste Wizardry <p>Ctrl+C / Ctrl+V</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Seek & Destroy (Text Edition) <p>Ctrl+F</p>
+                    </li>
+                    <li>
+                        Replace-o-matic <p>Ctrl+H</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Search in the Multiverse <p>Ctrl+Shift+F</p>
+                    </li>
+                    <li>
+                        Replace Across Realities <p>Ctrl+Shift+H</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Toggle Invisibility Cloak (Line Comment) <p>Ctrl+:</p>
+                    </li>
+                    <li>
+                        Block Comment Fortress <p>Shift+Alt+A</p>
+                    </li>
+                    <li>
+                        Abbreviation Enchantment <p>Tab</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Code Haiku Blossom <p>Ctrl+Shift+Enter</p>
+                    </li>
+                    <li>
+                        Emoji Incantation <i class="fa fa-smile"></i>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-menu-link" onclick="toggleSubMenu(this)">Selection
+                <ul class="submenu">
+                    <li>
+                        Summon All the Things <p>Ctrl+A</p>
+                    </li>
+                    <li>
+                        Random Selection Potion <p>Ctrl+Shift+R</p>
+                    </li>
+                    <li>
+                        Code Block Magnet <p>Ctrl+Shift+B</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Emoji-based Selection <p>Ctrl+Shift+E</p>
+                    </li>
+                    <li>
+                        Selecto Inverticus <p>Ctrl+Shift+I</p>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Odd Line Oddity <p>Ctrl+Shift+O</p>
+                    </li>
+                    <li>
+                        Even Line Elegance <p>Ctrl+Shift+E</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-menu-link" onclick="toggleSubMenu(this)">View
+                <ul class="submenu">
+                    <li>
+                        Peek into the Matrix <p>Ctrl+Shift+R</p>
+                    </li>
+                    <li>
+                        Cloud Gazing <i class="fa fa-cloud"></i>
+                    </li>
+                    <li>
+                        Data Flow Daydream <p>Ctrl+Shift+D</p>
+                    </li>
+                    <li>
+                        Code Overview 360° <i class="fa fa-eye"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Distraction-Free Day Spa <p>Ctrl+Shift+F</p>
+                    </li>
+                    <li>
+                        Zen Coding Retreat <i class="fa fa-yin-yang"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Code Meditation Oasis <i class="fa fa-om"></i>
+                    </li>
+                    <li>
+                        Debugging with a Scenic View <i class="fa fa-binoculars"></i>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-menu-link" onclick="toggleSubMenu(this)">Go
+                <ul class="submenu">
+                    <li>
+                        Go Beyond <p>Ctrl+Shift+R</p>
+                    </li>
+                    <li>
+                        Contact Aliens <i class="fa fa-space-shuttle"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Navigate Parallel Universes <p>Ctrl+Alt+Shift+D</p>
+                    </li>
+                    <li>
+                        Interstellar Coding <i class="fa fa-rocket"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Warp Speed Development <p>Ctrl+Shift+W</p>
+                    </li>
+                    <li>
+                        Quantum Leap Debugging <i class="fa fa-rocket"></i>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-menu-link" onclick="toggleSubMenu(this)">Run
+                <ul class="submenu">
+                    <li>
+                        Run in Circles <p>Ctrl+Shift+R</p>
+                    </li>
+                    <li>
+                        About Running <i class="fa fa-info-circle"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Sprint to the Finish Line <p>Ctrl+Alt+Shift+S</p>
+                    </li>
+                    <li>
+                        Marathon Debugging <i class="fa fa-running"></i>
+                    </li>
+                    <li>
+                        Code Race Challenge <p>Ctrl+R</p>
+                    </li>
+                    <li>
+                        Victory Lap Celebration <i class="fa fa-flag-checkered"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Moonwalk through the Code :> <p>Ctrl+Shift+M</p>
+                    </li>
+                    <li>
+                        Breakdance Debugging <i class="fa fa-drum"></i>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-menu-link" onclick="toggleSubMenu(this)">Terminal
+                <ul class="submenu">
+                    <li>
+                        About Terminal <i class="fa fa-terminal"></i>
+                    </li>
+                    <li>
+                        Call Tech Support <p>Ctrl+Shift+R</p>
+                    </li>
+                    <li>
+                        Debugging Console <p>Ctrl+Alt+D</p>
+                    </li>
+                    <li>
+                        Launch Command Prompt <i class="fa fa-code"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Customize Shell Settings <i class="fa fa-cogs"></i>
+                    </li>
+                    <li>
+                        Terminal Themes <p>Ctrl+Alt+T</p>
+                    </li>
+                    <li>
+                        Dance with ASCII Penguins <p>Ctrl+ASCII</p>
+                    </li>
+                    <li>
+                        Sing Karaoke in Binary <i class="fa fa-music"></i>
+                    </li>
+                    <li>
+                        Epic Coding Quests <i class="fa fa-dragon"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Emoji Coding Support <i class="fa fa-smile"></i>
+                    </li>
+                    <li>
+                        Cat Memes Galore <i class="fa fa-grin"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Debugging Dance Party <p>Ctrl+Shift+W</p>
+                    </li>
+                    <li>
+                        Code Poetry Slam <i class="fa fa-microphone"></i>
+                    </li>
+                </ul>
+
+            </li>
+            <li class="header-menu-link" onclick="toggleSubMenu(this)">Help
+                <ul class="submenu">
+                    <li>
+                        About the Developer <p>Ctrl+Shift+R</p>
+                    </li>
+                    <li>
+                        Seek Assistance <i class="fa fa-life-ring"></i>
+                    </li>
+                    <hr class="submenu-hr">
+                    <li>
+                        Fun Coding Challenges <i class="fa fa-puzzle-piece"></i>
+                    </li>
+                    <li>
+                        Emoji Coding Support <i class="fa fa-smile"></i>
+                    </li>
+                    <li>
+                        Cat Memes <i class="fa fa-paw"></i>
+                    </li>
+                    <li>
+                        Debugging Dance Party <p>Ctrl+R</p>
+                    </li>
+                    <li>
+                        Code Poetry Corner <i class="fa fa-feather"></i>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="search">
+            <ul class="search-menu">
+                <li class="search-menu-link"><i class="fa fa-arrow-left" aria-hidden="true"></i></li>
+                <li class="search-menu-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></li>
+            </ul>
+            <div class="search-input">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" placeholder="Quentin Minziere-Portfolio">
+            </div>
+        </div>
+
+        <div class="header-app-icons">
+            <ul>
+                <li>
+                    <i class="fa fa-table-columns"></i>
+                </li>
+                <li>
+                    <i class="fa fa-table"></i>
+                </li>
+                <li>
+                    <i class="fa fa-minus"></i>
+                </li>
+                <li>
+                    <i class="fa fa-window-restore"></i>
+                </li>
+
+                <li>
+                    <i class="fa fa-times"></i>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="side-header">
+        <ul class="side-header-menu">
+            <li class="active" data-tooltip="Portfolio">
+                <i class="fa fa-copy"></i>
+            </li>
+            <li>
+                <i class="fa fa-search"></i>
+            </li>
+            <li>
+                <i class="fa fa-code-branch"></i>
+            </li>
+            <li>
+                <i class="fa fa-play"></i>
+            </li>
+            <li data-tooltip="Email">
+                <a href="mailto:et.mirje@hotmail.com">
+                    <i class="fa fa-envelope-circle-check"></i>
+                </a>
+            </li>
+            <li data-tooltip="GitHub">
+                <a href="https://github.com/declick" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li data-tooltip="LinkedIn">
+                <a href="https://www.linkedin.com/in/quentin-minziere/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+
+
+        <ul class="side-header-botton-menu">
+            <li id="profileIcon">
+                <div id="profileFrame">
+                  <div id="profileText" data-tooltip="Quentin Minziere"><span class="red">import</span> myPortrai ...</div>
+                  <img id="profileImage" alt="Quentin Minziere">
+                  <i class="fa fa-user-circle"></i>
+                </div>
+              </li>
+              
+            <li>
+                <i class="fa fa-cog"></i>
+            </li>
+        </ul>
+    </div>
+
+    <div class="bottom-header">
+        <ul class="right">
+            <li>
+                <i class="fa fa-code-branch"></i>
+                main*
+                <i class="fa fa-sync fa-flip-horizontal"></i>
+            </li>
+            <li>
+                <i class="fa fa-circle-xmark"></i>
+                0
+                <i class="fa fa-exclamation-triangle"></i>
+                0
+            </li>
+            <li>
+                <i class="fa fa-tower-cell"></i>
+                0
+            </li>
+        </ul>
+        <ul class="left">
+            <li>
+                Ln 24, Col 32
+            </li>
+            <li>
+                Spaces: 3
+            </li>
+            <li>
+                UTF-8
+            </li>
+            <li>
+                CRLF
+            </li>
+            <li>
+                HTML
+            </li>
+            <li>
+                <i class="fa fa-radiation-alt"></i> Port: 5500
+            </li>
+            <li>
+                <i class="fa fa-bell"></i>
+            </li>
+        </ul>
+    </div>
+
+    <div class="menu-option">
+        <div class="titre">
+            <h5>EXPLORER </h5>
+            ...
+        </div>
+        <div class="menu-drop">
+            <div class="box-click">
+                <i class="fa fa-chevron-down"></i> <span>OPEN EDITORS</span>
+                <div class="show-pre">
+                    <ul>
+                        <li class="active"><i class="fab fa-html5"></i> <span>about.html</span> </li>
+                        <li><i class="fab fa-css3"></i> <span> contact.css </span></li>
+                        <li><i class="fab fa-square-js"></i> <span> projet.js </span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="menu-drop">
+            <div class="box-click">
+                <i class="fa fa-chevron-down"></i> <span>VSCODE</span>
+                <div class="show-pre">
+                    <ul>
+                        <li><i class="fa fa-chevron-right"></i><i class="fa fa-folder"></i><span>assets</span></li>
+                        <li><i class="fa fa-chevron-right"></i><i class="fa fa-folder"></i><span>resources</span></li>
+                        <li><i class="fab fa-react react"></i><span>home.jsx</span></li>
+                        <li><i class="fab fa-html5 html5"></i><span>about.html</span></li>
+                        <li><i class="fab fa-css3 css3"></i><span>contact.css</span></li>
+                        <li><i class="fab fa-git-alt git"></i><span>.gitignore</span></li>
+                        <li><i class="fab fa-square-js js"></i><span>projet.js</span></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="bottom-links">
+            <hr>
+            <li><i class="fa fa-chevron-right"></i> <span>OUTLINE </span></li>
+            <li><i class="fa fa-chevron-right"></i> <span>TIMELINE </span></li>
+            <hr>
+            <li><i class="fa fa-chevron-right"></i> <span>SCRIPTS</span></li>
+        </ul>
+    </div>
+
+    <div class="tabs-container">
+        <div class="tabs-index tabs active"><span class="html-tag"><i class="fab fa-html5"></i></span>about.html<i
+                class="fa fa-times"></i></div>
+        <div class="tabs-projects tabs"><span class="html-tag"><i class="fab fa-square-js"></i></span>projects.js</div>
+        <div class="tabs-skillset tabs"><span class="html-tag"><i class="fab fa-css3"></i></span>contact.css
+        </div>
+
+        <div class="app-icons">
+            <ul>
+                <li>
+                    <i class="fa fa-code-compare"></i>
+                </li>
+                <li>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.5 1.25H3.75L2.5 2.5V16.25L3.75 17.5H17.5L18.75 16.25V2.5L17.5 1.25ZM10 16.25H3.75V2.5H10V16.25ZM17.5 16.25H11.25V2.5H17.5V16.25Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+                        <path fill="currentColor"
+                            d="M4 8a1 1 0 11-2 0 1 1 0 012 0zM9 8a1 1 0 11-2 0 1 1 0 012 0zM14 8a1 1 0 11-2 0 1 1 0 012 0z">
+                        </path>
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="url-container">
+        <p class="url-text">Project<i class="fa fa-chevron-right"></i>Portfolio
+            <i class="fa fa-chevron-right"></i><span class="url-text"><i class="fab fa-html5"></i>about.html</span>
+        </p>
+    </div>
+
+    <div class="portfolio">
+
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+        <div>
+            <h1>MON PORTFOLIO</h1>
+        </div>
+
+    </div>
+
+    <div class="console">
+        <hr>
+        <div class="header-console">
+            <ul class="console-menu">
+                <li class="console-menu-link">PROBLEMS</li>
+                <li class="console-menu-link">OUTPUT</li>
+                <li class="console-menu-link">DEBUG CONSOLE</li>
+                <li class="console-menu-link"><u class="white">TERMINAL</u></li>
+                <li class="console-menu-link">PORTS</li>
+                <li class="console-menu-link">
+                    <p id="language" class="white"><span id="french">FR </span>&nbsp;<span id="english"> EN</span></p>
+                </li>
+
+
+            </ul>
+            <div class="console-app-icons">
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                            viewBox="0,0,256,256">
+                            <g fill="#1e1e1e" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,256v-256h256v256z" id="bgRectangle"></path>
+                            </g>
+                            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(5.12,5.12)">
+                                    <path
+                                        d="M29.17188,6.00781c-5.39539,0.002 -10.79112,-0.01015 -16.18945,0.00586c-1.84803,0.00525 -3.2915,0.24879 -4.39648,1.12695c-1.10499,0.87816 -1.66759,2.22987 -2.08594,4.03516c-2.09029,9.01424 -4.16438,18.0339 -6.22656,27.05469c-0.40604,1.77251 -0.44977,3.25801 0.4375,4.35352c0.88727,1.09551 2.35462,1.38425 4.23047,1.39063c10.79441,0.03601 21.58902,0.03201 32.38281,0c1.66852,-0.0049 3.07327,-0.33554 4.15234,-1.17773c1.07907,-0.84219 1.72553,-2.12203 2.08789,-3.70898c2.09844,-9.20392 4.1696,-18.41549 6.19531,-27.63672c0.37014,-1.68627 0.39834,-3.09552 -0.45117,-4.13477c-0.84951,-1.03925 -2.22908,-1.29774 -3.94336,-1.30469c-5.40169,-0.02202 -10.79909,-0.00591 -16.19336,-0.00391zM29.17383,8.00781c5.39773,-0.002 10.79129,-0.01808 16.18359,0.00391c1.49372,0.00605 2.1706,0.28681 2.40234,0.57031c0.23174,0.2835 0.36774,0.97967 0.04688,2.44141c-2.02416,9.21415 -4.09594,18.42163 -6.19336,27.62109c-0.30163,1.31973 -0.7486,2.09142 -1.36719,2.57422c-0.61893,0.48306 -1.51626,0.75173 -2.92773,0.75586c-10.79021,0.032 -21.5815,0.03599 -32.37109,0c-1.65219,-0.00562 -2.41316,-0.31694 -2.68164,-0.64844c-0.26848,-0.33149 -0.39597,-1.1009 -0.04102,-2.65039c2.06182,-9.01921 4.13294,-18.03707 6.22266,-27.04883c0.37766,-1.62971 0.8108,-2.46533 1.38281,-2.91992c0.57201,-0.45459 1.48823,-0.68861 3.1582,-0.69336c5.39166,-0.01599 10.78694,-0.00386 16.18555,-0.00586zM19.26953,11.00586c-0.6345,-0.04737 -1.284,0.21688 -1.9375,0.79688c-1.323,1.174 -0.97114,2.32858 0.13086,3.51758c2.407,2.599 4.6325,5.14114 7.0625,7.86914c0.417,0.465 0.92325,1.04542 1.53125,1.73242c-0.462,0.345 -1.19224,0.90745 -1.74023,1.31445c-3.931,2.927 -7.87898,5.83356 -11.83398,8.72656c-1.106,0.809 -2.09139,1.66828 -1.02539,3.11328c0.967,1.31 2.10869,1.08817 3.30469,0.20117c5.323,-3.945 10.65077,-7.8843 16.00977,-11.7793c1.396,-1.015 1.69183,-1.94545 0.42383,-3.31445c-3.395,-3.666 -6.73227,-7.38652 -10.07227,-11.10352c-0.5995,-0.6675 -1.21902,-1.02684 -1.85352,-1.07422zM22.75,34c-1.125,0 -1.75,1 -1.75,2c0,1 0.625,2 1.75,2h9.5c1.125,0 1.75,-1 1.75,-2c0,-1 -0.625,-2 -1.75,-2z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        Powershell
+                    </li>
+                    <li>
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-down"></i>
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.5 1.25H3.75L2.5 2.5V16.25L3.75 17.5H17.5L18.75 16.25V2.5L17.5 1.25ZM10 16.25H3.75V2.5H10V16.25ZM17.5 16.25H11.25V2.5H17.5V16.25Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+                            <path fill="currentColor"
+                                d="M4 8a1 1 0 11-2 0 1 1 0 012 0zM9 8a1 1 0 11-2 0 1 1 0 012 0zM14 8a1 1 0 11-2 0 1 1 0 012 0z">
+                            </path>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="main">
+                <div id="terminal-body" class="terminal">
+                    <div id="welcome"></div>
+                    <div id="terminal">
+                        <div>
+                            <p class="commande" id="answer0"><i class="far fa-lightbulb"></i>PS
+                                C:/Desktop/vscode:~/portfolio$</p>
+                            <input type="text" class="input" id="input0" tabindex="-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
+        <script src="./js/language.js"></script>
+        <script src="./js/result.js"></script>
+
+</body>
+
+</html>
