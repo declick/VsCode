@@ -8,11 +8,7 @@ const data = {
     "guest@mirje.dev:$ ~(c) MIRJE. All rights reserved 2023." + "</br></br>" +
     "To display the available commands type <code>help</code>." + "</br>" +
     "To validate each command press <em>Enter</em>, you can use the <em>Tabulation</em> key to help you complete a command.",
-
-    "information" : "This site was entirely created using <code>HTML</code>, <code>CSS</code> and <code>Javascript</code> without using any library or framework. This site contains a large number of features but also a well-hidden <code>easter egg</code> that only developers can find. Good discovery!",
-
-    "btnpopup" : "Continue",
-
+ 
     "help" : `<li><code>about-me</code>: Display information about me</li>
     <li><code>experiences</code>: Displays the list of my experiences</li>
     <li><code>get cv</code>: Download my CV</li>
@@ -209,8 +205,6 @@ const data = {
     <div>my-projects[7].website</div>
   `,
 
-  "bodymail" : `mailto:reygner0224@gmail.com?subject=Your portfolio is amazing, are you open to opportunities?&body=Quentin MINZIERE > Hello to you who found my easter egg, I am open to opportunities professionals so do not hesitate to contact me by sending me this email with your proposal. I will contact you to arrange a phone interview. Thank you for your time !`
-
   },
 
 
@@ -222,10 +216,6 @@ const data = {
     "Pour afficher les commandes disponibles tapez <code>help</code>." + "</br>" +
     "Pour valider chaque commande appuyez sur <em>Entrer</em>, vous pouvez utiliser la touche <em>Tabulation</em> afin de vous aider à compléter une commande.",
     
-    "information" : "Ce site a entièrement été réalisé sous <code>HTML</code>, <code>CSS</code> et <code>Javascript</code> sans faire appel à la moindre librairie ou framework. Ce site renferme un grand nombre de fonctionnalités (animations cachées, thèmes secrets, etc.) mais également un <code>easter egg</code> bien caché que seul les développeurs pourront trouver. Bonne découverte!",
-
-    "btnpopup" : "Continuer",
-
     "help" : `<li><code>a-propos</code> : Affiche les informations me concernant</li>
     <li><code>experiences</code> : Affiche la liste de mes expériences</li>
     <li><code>get cv</code> : Télécharge mon CV</li>
@@ -462,12 +452,6 @@ function setLanguage(){
   document.querySelectorAll(".resultproject").forEach(element =>{
     element.innerHTML = data[language].project
   });
-  document.querySelectorAll(".glassmorphismOffresult").forEach(element =>{
-    element.innerHTML = data[language].glassmorphismOff
-  });
-  document.querySelectorAll(".glassmorphismOnresult").forEach(element =>{
-    element.innerHTML = data[language].glassmorphismOn
-  });
   document.querySelectorAll(".notfoundlanguage").forEach(element =>{
     element.innerHTML = data[language].notfound
   });
@@ -486,10 +470,6 @@ function setLanguage(){
   document.querySelectorAll(".listsecretresult").forEach(element =>{
     element.innerHTML = data[language].listsecretresult
   });
-  document.querySelectorAll(".congratulation").forEach(element =>{
-    element.innerHTML = data[language].congratulation
-  });
-
   
 }
 

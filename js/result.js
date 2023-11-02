@@ -23,7 +23,7 @@ const getCv = () =>{
         `<p class="result cvresult">${data[language].cv}</p>`);
   const a = document.createElement("a");
   a.href = "ressources/CV Quentin Minziere Doranco.pdf";
-  a.setAttribute("download", "CV Quentin Minziere Doranco.pdf");
+  a.setAttribute("download", "CV Quentin Minziere.pdf");
   a.setAttribute("target", "blank");
   a.click();
 }
@@ -32,7 +32,7 @@ const getLinkedin = () =>{
   terminal.insertAdjacentHTML("beforeend", 
         `<p class="result redirectresultLinkedin">${data[language].redirectLinkedin}</p>`);
   const a = document.createElement("a");
-  a.href = "https://www.linkedin.com/in/guillaume-reygner/";
+  a.href = "https://www.linkedin.com/in/quentin-minziere/";
   a.setAttribute("target", "blank");
   a.click();
 }
@@ -41,7 +41,7 @@ const getGithub = () =>{
   terminal.insertAdjacentHTML("beforeend", 
         `<p class="result redirectresultGithub">${data[language].redirectGithub}</p>`);
   const a = document.createElement("a");
-  a.href = "https://github.com/guillaume-rygn";
+  a.href = "https://github.com/declick";
   a.setAttribute("target", "blank");
   a.click();
 }
@@ -77,21 +77,21 @@ const website = (result) =>{
   const a = document.createElement("a");
 
   if(result === "mes-projets[1].website" || result === "my-projects[1].website"){
-    a.href = "https://catshop-io.herokuapp.com/";
+    a.href = "https://herokuapp.com/";
   } else if (result === "mes-projets[2].website" || result === "my-projects[2].website"){
-    a.href = "https://guillaume-rygn.github.io/Kata-Temple/";
+    a.href = "https://herokuapp.com/";
   } else if (result === "mes-projets[3].website" || result === "my-projects[3].website"){
-    a.href = "https://scoreit-thp.herokuapp.com/";
+    a.href = "https://herokuapp.com/";
   } else if (result === "mes-projets[4].website" || result === "my-projects[4].website"){
-    a.href = "https://guillaume-rygn.github.io/Monolith-Arena/";
+    a.href = "https://herokuapp.com/";
   } else if (result === "mes-projets[6].website" || result === "my-projects[6].website"){
-    a.href = "https://guillaume-rygn.github.io/EmojiFace/";
+    a.href = "https://herokuapp.com/";
   } else if (result === "mes-projets[7].website" || result === "my-projects[7].website"){
-    a.href = "https://www.guillaumereygner.fr/";
+    a.href = "https://herokuapp.com/";
   } else if (result === "mes-projets[8].website" || result === "my-projects[8].website"){
-    a.href = "https://www.goyoulearn.com/";
+    a.href = "https://herokuapp.com/  ";
   } else if (result === "mes-projets[9].website" || result === "my-projects[9].website"){
-    a.href = "https://guillaume-rygn.github.io/FindHouse/";
+    a.href = "https://herokuapp.com/";
   }
   a.setAttribute("target", "blank");
   a.click();

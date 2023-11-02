@@ -714,7 +714,7 @@ display: none;
     flex-direction: row;
     align-items: center;
     color: #ccc;
-    height: 20px;
+    height: 24px;
     width: calc(100% - 235px);
     position: absolute;
     left: 235px;
