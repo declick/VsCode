@@ -22,7 +22,7 @@ const getCv = () =>{
   terminal.insertAdjacentHTML("beforeend", 
         `<p class="result cvresult">${data[language].cv}</p>`);
   const a = document.createElement("a");
-  a.href = "ressources/CV Quentin Minziere Doranco.pdf";
+  a.href = "ressources/CV Quentin Minziere.pdf";
   a.setAttribute("download", "CV Quentin Minziere.pdf");
   a.setAttribute("target", "blank");
   a.click();
@@ -76,21 +76,21 @@ const website = (result) =>{
           `${data[language].website}`);
   const a = document.createElement("a");
 
-  if(result === "mes-projets[1].website" || result === "my-projects[1].website"){
+  if(result === "projets[1].website" || result === "projects[1].website"){
     a.href = "https://herokuapp.com/";
-  } else if (result === "mes-projets[2].website" || result === "my-projects[2].website"){
+  } else if (result === "projets[2].website" || result === "projects[2].website"){
     a.href = "https://herokuapp.com/";
-  } else if (result === "mes-projets[3].website" || result === "my-projects[3].website"){
+  } else if (result === "projets[3].website" || result === "projects[3].website"){
     a.href = "https://herokuapp.com/";
-  } else if (result === "mes-projets[4].website" || result === "my-projects[4].website"){
+  } else if (result === "projets[4].website" || result === "projects[4].website"){
     a.href = "https://herokuapp.com/";
-  } else if (result === "mes-projets[6].website" || result === "my-projects[6].website"){
+  } else if (result === "projets[6].website" || result === "projects[6].website"){
     a.href = "https://herokuapp.com/";
-  } else if (result === "mes-projets[7].website" || result === "my-projects[7].website"){
+  } else if (result === "projets[7].website" || result === "projects[7].website"){
     a.href = "https://herokuapp.com/";
-  } else if (result === "mes-projets[8].website" || result === "my-projects[8].website"){
+  } else if (result === "projets[8].website" || result === "projects[8].website"){
     a.href = "https://herokuapp.com/  ";
-  } else if (result === "mes-projets[9].website" || result === "my-projects[9].website"){
+  } else if (result === "projets[9].website" || result === "projects[9].website"){
     a.href = "https://herokuapp.com/";
   }
   a.setAttribute("target", "blank");

@@ -116,9 +116,9 @@ function logKey(e){
       }
     } else if (y === 0){
       if(result[0] === "a" && language === "french"){
-        input.value = "a-propos";
+        input.value = "a propos";
       } else if (result[0] === "a" && language === "english"){
-        input.value = "about-me";
+        input.value = "about me";
       }
       if(result[0] === "c" && !result.includes(" ") && result[1] !== "d"){
         input.value = "clear";
@@ -126,19 +126,19 @@ function logKey(e){
       if(result[0] === "e"){
         input.value = "experiences";
       }
-      if(result.includes("mes-projets[") && !result.includes("]") && typeof result[12] !== "undefined" &&result[12].match(/\d/) && language === 'french'){
+      if(result.includes("projets[") && !result.includes("]") && typeof result[12] !== "undefined" &&result[12].match(/\d/) && language === 'french'){
         input.value = `${result}]`;
       }
-      if(result.includes("my-projects[") && !result.includes("]") && typeof result[12] !== "undefined" &&result[12].match(/\d/) && language === 'english'){
+      if(result.includes("projects[") && !result.includes("]") && typeof result[12] !== "undefined" &&result[12].match(/\d/) && language === 'english'){
         input.value = `${result}]`;
       }
-      if(result.includes("mes-projets") && !result.includes("mes-projets[") && language === 'french'){
-        input.value = "mes-projets[";
+      if(result.includes("projets") && !result.includes("projets[") && language === 'french'){
+        input.value = "projets[";
       }
-      if(result.includes("my-projects") && !result.includes("my-projects[") && language === 'english'){
-        input.value = "my-projects[";
+      if(result.includes("projects") && !result.includes("projects[") && language === 'english'){
+        input.value = "projects[";
       }
-      if(result.includes("mes-projets[") || result.includes("my-projects[")){
+      if(result.includes("projets[") || result.includes("projects[")){
         if(result.includes("]") && !result.includes(".website") && result[13] === "]"){      
           input.value = `${result.substr(0,14)}.website`;
         }
@@ -161,11 +161,11 @@ function logKey(e){
       if(result[0] === "h"){
         input.value = "help";
       }
-      if(result[0] === "m" && result !== "mes-projets" && !result.includes("mes-projets[") && language === "french") {
-        input.value = "mes-projets";
+      if(result[0] === "m" && result !== "projets" && !result.includes("projets[") && language === "french") {
+        input.value = "rojets";
       }
-      if(result[0] === "m" && result !== "my-projects" && !result.includes("my-projects[") && language === "english") {
-        input.value = "my-projects";
+      if(result[0] === "m" && result !== "projects" && !result.includes("projects[") && language === "english") {
+        input.value = "projects";
       }
       if(result[0] === "p"){
         input.value = "passions";
@@ -205,7 +205,7 @@ function logKey(e){
 
         } else if(result === "ls" || result === "ls -a"){
           ls(y, result, secret);
-        } else if (result === "a-propos" || result === "about-me"){
+        } else if (result === "a propos" || result === "about me"){
           aboutMe();
         } else if (result === "clear"){
           clear();
@@ -219,25 +219,25 @@ function logKey(e){
           getGithub();
         } else if (result === "passions"){
           hobby();
-        } else if (result === "mes-projets" || result === "my-projects"){
+        } else if (result === "projets" || result === "projects"){
           project();
-        } else if (result === "mes-projets[1].website" || result === "my-projects[1].website"){
+        } else if (result === "projets[1].website" || result === "projects[1].website"){
           website(result);
-        } else if (result === "mes-projets[2].website" || result === "my-projects[2].website"){
+        } else if (result === "projets[2].website" || result === "projects[2].website"){
           website(result);
-        } else if (result === "mes-projets[3].website" || result === "my-projects[3].website"){
+        } else if (result === "projets[3].website" || result === "projects[3].website"){
           website(result);
-        } else if (result === "mes-projets[4].website" || result === "my-projects[4].website"){
+        } else if (result === "projets[4].website" || result === "projects[4].website"){
           website(result);
-        } else if (result === "mes-projets[5].website" || result === "my-projects[5].website"){
+        } else if (result === "projets[5].website" || result === "projects[5].website"){
           website(result);
-        } else if (result === "mes-projets[6].website" || result === "my-projects[6].website"){
+        } else if (result === "projets[6].website" || result === "projects[6].website"){
           website(result);
-        } else if (result === "mes-projets[7].website" || result === "my-projects[7].website"){
+        } else if (result === "projets[7].website" || result === "projects[7].website"){
           website(result);
-        } else if (result === "mes-projets[8].website" || result === "my-projects[8].website"){
+        } else if (result === "projets[8].website" || result === "projects[8].website"){
           website(result);
-        } else if (result === "mes-projets[9].website" || result === "my-projects[9].website"){
+        } else if (result === "projets[9].website" || result === "projects[9].website"){
           website(result);
         
         
@@ -271,7 +271,7 @@ function logKey(e){
       
       } else {
         terminal = document.getElementById("terminal");
-        terminal.insertAdjacentHTML("beforeend", `<i class="far fa-lightbulb">&nbsp;<p class="commande" id="answer${i}">PS C:/Desktop/vscode:~/portfolio$</p><input type="text" autofocus class="input" id="input${i}" tabindex="-1">`);
+        terminal.insertAdjacentHTML("beforeend", `<i class="far fa-lightbulb">&nbsp;<p class="commande" id="answer${i}">PS C:/Desktop/VsCode:~/portfolio$</p><input type="text" autofocus class="input" id="input${i}" tabindex="-1">`);
       }
       document.getElementById(`input${i}`).focus();
      
@@ -305,3 +305,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 /* MINIMAP */
+
+
+/* DARK MODE */

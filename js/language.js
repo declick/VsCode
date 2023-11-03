@@ -9,26 +9,25 @@ const data = {
     "To display the available commands type <code>help</code>." + "</br>" +
     "To validate each command press <em>Enter</em>, you can use the <em>Tabulation</em> key to help you complete a command.",
  
-    "help" : `<li><code>about-me</code>: Display information about me</li>
-    <li><code>experiences</code>: Displays the list of my experiences</li>
-    <li><code>get cv</code>: Download my CV</li>
-    <li><code>get linkedin</code>: Link to my Linkedin</li>
-    <li><code>get github</code>: Link to my Github</li>
-    <li><code>passions</code>: Displays the list of my hobbies</li>
-    <li><code>my-projects</code>: Displays the list of my personal projects</li>
-    <li><code>clear</code>: Clean the terminal</li>
+    "help" : `<li><code>about me</code> : Display information about me</li>
+    <li><code>experiences</code> : Displays the list of my experiences</li>
+    <li><code>get cv</code> : Download my CV</li>
+    <li><code>get linkedin</code> : Link to my Linkedin</li>
+    <li><code>get github</code> : Link to my Github</li>
+    <li><code>passions</code> : Displays the list of my hobbies</li>
+    <li><code>projects</code> : Displays the list of my personal projects</li>
+    <li><code>clear</code> : Clean the terminal</li>
     <li><em>You can use the TAB key to complete a command line</em></li>
     <li><em>You can find the old commands with the up and down arrows</em></li>`,
 
     "aboutme" : `{<br>
-      &nbsp;&nbsp;&nbsp;"name" : "Quentin MINZIERE",<br>
-      &nbsp;&nbsp;&nbsp;"formation": "Developer 1200h in 6 months - The Hacking Project",<br>
-      &nbsp;&nbsp;&nbsp;"language" : "JS, SCSS, HTML, CSS, Ruby, Git",<br>
-      &nbsp;&nbsp;&nbsp;"framework" : "React, Rails",<br>
-      &nbsp;&nbsp;&nbsp;"tools": "GitHub, Heroku, Figma",<br>
+      &nbsp;&nbsp;&nbsp;"id" : "Quentin MINZIERE",<br>
+      &nbsp;&nbsp;&nbsp;"formation" : "600h+ in 6 months - Full-Stack Developer - Javascript",<br>
+      &nbsp;&nbsp;&nbsp;"language" : "HTML, CSS, JS, Node, Git",<br>
+      &nbsp;&nbsp;&nbsp;"framework" : "React, Express",<br>
+      &nbsp;&nbsp;&nbsp;"tools" : "GitHub, Netlify, Figma",<br>
       &nbsp;&nbsp;&nbsp;"softSkills": "Agile Method, Teamwork",<br>
-      &nbsp;&nbsp;&nbsp;"favoriteIDE": "VS Code",<br>
-      &nbsp;&nbsp;&nbsp;"city" : "Lyon, France"<br>
+      &nbsp;&nbsp;&nbsp;"city" : "Nantes/Paris, France"<br>
     }`,
 
     "experience" : `<tr>
@@ -38,34 +37,28 @@ const data = {
     <th class="description">Description</th>
   </tr>
   <tr>
-    <td class="center">June 2016 - June 2018</td>
-    <td>Klevery</td>
-    <td>Co-founder</td>
-    <td>Routing optimization software for professionals with high delivery or travel activity.</td>
+  <td class="center">Nov 2022 - Dec 2022</td>
+  <td>My little lashes</td>
+  <td>Web developer</td>
+  <td>Setting up a showcase website with Bootstrap, JS (JavaScript), and PHP.</td>
+</tr>
+  <tr>
+    <td class="center">Mars 2021 - Sept 2021</td>
+    <td>Marelli & Fils</td>
+    <td>Smoke Ventilation Business Manager</td>
+    <td>Team management, Preparation of construction quotes, and providing guidance on project optimization.</td>
   </tr>
   <tr>
-    <td class="center">Sept 2017 - Sept 2018</td>
-    <td>Credit Agricole Centre-Est</td>
-    <td>Expert risk analyst</td>
-    <td>Feasibility study of files, frequent contact with project managers in the field, legal study of bilateral/arranger contracts.</td>
+    <td class="center">2019 - 2020</td>
+    <td>Kelly Services - temp.</td>
+    <td>Handler</td>
+    <td>Nothing particularly interesting to say about it...</td>
   </tr>
   <tr>
-    <td class="center">Jan 2019 - Jul 2021</td>
-    <td>CIC - Lyonnaise de Banque</td>
-    <td>Professional Business Manager</td>
-    <td>Accompaniment of the entrepreneur on his personal and professional projects, financing of needs, accompaniment on the optimization of the balance sheet and projects.</td>
-  </tr>
-  <tr>
-    <td class="center">Dec 2019 - Today</td>
-    <td>Overstats</td>
-    <td>Co-founder</td>
-    <td>Overstats is a team management tool for the game Overwatch developed by Blizzard used by over 100 teams around the world. Management of partnerships and development of the application.</td>
-  </tr>
-  <tr>
-    <td class="center">August 2021 - Today</td>
-    <td>Startup101</td>
-    <td>Editor</td>
-    <td>Writer for the Startup101 newsletter which explores the beginnings of today's great startups such as Facebook, Instagram, Google and many more.</td>
+    <td class="center">2013 - 2018</td>
+    <td>FKC</td>
+    <td>Service manager</td>
+    <td>Opening or closing the restaurant. Post-Rush management: cash counting, inventory management, HACCP.</td>
   </tr>`,
 
   "cv" : `The resume upload will begin.`,
@@ -75,9 +68,10 @@ const data = {
   "redirectGithub" : `You will be redirected to Github.`,
 
   "hobby" : `{<br>
-    &nbsp;&nbsp;&nbsp;"Sport": "Volleyball, Cycling",<br>
-    &nbsp;&nbsp;&nbsp;"Programming": "JS, Rails",<br>
-    &nbsp;&nbsp;&nbsp;"Other" : "Entrepreneurship, Photography, Reading autobiography, Design, Marketing"<br>
+    &nbsp;&nbsp;&nbsp;"Sport" : "Hockey"<br>
+    &nbsp;&nbsp;&nbsp;"Programmation" : "JS, Node"<br>
+    &nbsp;&nbsp;&nbsp;"Gaming" : "FPS"<br>
+    &nbsp;&nbsp;&nbsp;"Other" : "Design, blockchaine"<br>
   }`,
 
   "project" : `<table class="result">
@@ -163,46 +157,46 @@ const data = {
     <td class="center"><a href="https://github.com/guillaume-rygn/FindHouse" target="blank">Link</a></td>
   </tr>
   </table><br>
-  <p class="result"><em>You can see the site attached to the project using the command</em> <code>my-projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
+  <p class="result"><em>You can see the site attached to the project using the command</em> <code>projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
 
   "notfound" : `<span class="notfoundlanguage"><br><br>Type the command <code>help</code> to display the list of available commands.</p></span>`,
 
   "website" : `<p class="result websiteresult">You will be redirected to the project website.</p>`,
 
   "ls1" : `
-    <div>about-me</div>
+    <div>about me</div>
     <div>experiences</div>
     <div>get CV</div>
     <div>get linkedin</div>
     <div>get github</div>
     <div>passions</div>
-    <div>my-projects</div>
+    <div>projects</div>
     <div>clear</div>
-    <div>my-projects[1].website</div>
-    <div>my-projects[2].website</div>
-    <div>my-projects[3].website</div>
-    <div>my-projects[4].website</div>
-    <div>my-projects[5].website</div>
-    <div>my-projects[6].website</div>
-    <div>my-projects[7].website</div>
+    <div>projects[1].website</div>
+    <div>projects[2].website</div>
+    <div>projects[3].website</div>
+    <div>projects[4].website</div>
+    <div>projects[5].website</div>
+    <div>projects[6].website</div>
+    <div>projects[7].website</div>
   `,
 
   "ls2" : `
-    <div>about-me</div>
+    <div>about me</div>
     <div>experiences</div>
     <div>get CV</div>
     <div>get linkedin</div>
     <div>get github</div>
     <div>passions</div>
-    <div>my-projects</div>
+    <div>projects</div>
     <div>clear</div>
-    <div>my-projects[1].website</div>
-    <div>my-projects[2].website</div>
-    <div>my-projects[3].website</div>
-    <div>my-projects[4].website</div>
-    <div>my-projects[5].website</div>
-    <div>my-projects[6].website</div>
-    <div>my-projects[7].website</div>
+    <div>projects[1].website</div>
+    <div>projects[2].website</div>
+    <div>projects[3].website</div>
+    <div>projects[4].website</div>
+    <div>projects[5].website</div>
+    <div>projects[6].website</div>
+    <div>projects[7].website</div>
   `,
 
   },
@@ -214,28 +208,27 @@ const data = {
     " <mark>&nbsp; *  History restored </mark>"+ "</br>" +
     "guest@mirje.dev:$ ~(c) MIRJE. All rights reserved 2023." + "</br></br>" +
     "Pour afficher les commandes disponibles tapez <code>help</code>." + "</br>" +
-    "Pour valider chaque commande appuyez sur <em>Entrer</em>, vous pouvez utiliser la touche <em>Tabulation</em> afin de vous aider à compléter une commande.",
+    "Pour valider chaque commande appuyez sur <em>Entrer</em>, utiliser la touche <em>Tabulation</em> pour compléter une commande.",
     
-    "help" : `<li><code>a-propos</code> : Affiche les informations me concernant</li>
+    "help" : `<li><code>a propos</code> : Affiche les informations me concernant</li>
     <li><code>experiences</code> : Affiche la liste de mes expériences</li>
     <li><code>get cv</code> : Télécharge mon CV</li>
     <li><code>get linkedin</code> : Lien vers mon Linkedin</li>
     <li><code>get github</code> : Lien vers mon Github</li>
     <li><code>passions</code> : Affiche la liste de mes passes temps</li>
-    <li><code>mes-projets</code> : Affiche la liste de mes projets personnels</li>
+    <li><code>projets</code> : Affiche la liste de mes projets personnels</li>
     <li><code>clear</code> : Nettoie le terminal</li>
     <li><em>Vous pouvez utiliser la touche TAB afin de compléter une ligne de commande</em></li>
     <li><em>Vous pouvez retrouver les anciennes commandes avec les flèches haut et bas</em></li>`,
 
     "aboutme" : `{<br>
-      &nbsp;&nbsp;&nbsp;"name" : "Quentin MINZIERE",<br>
-      &nbsp;&nbsp;&nbsp;"formation" : "Developpeur 1200h en 6 mois - The Hacking Project",<br>
-      &nbsp;&nbsp;&nbsp;"language" : "JS, SCSS, HTML, CSS, Ruby, Git",<br>
-      &nbsp;&nbsp;&nbsp;"framework" : "React, Rails",<br>
-      &nbsp;&nbsp;&nbsp;"tools" : "GitHub, Heroku, Figma",<br>
+      &nbsp;&nbsp;&nbsp;"id" : "Quentin MINZIERE",<br>
+      &nbsp;&nbsp;&nbsp;"formation" : "600h+ en 6 mois - Développeur Full-Stack - Javascript",<br>
+      &nbsp;&nbsp;&nbsp;"language" : "HTML, CSS, JS, Node, Git",<br>
+      &nbsp;&nbsp;&nbsp;"framework" : "React, Express",<br>
+      &nbsp;&nbsp;&nbsp;"outils" : "GitHub, Netlify, Figma",<br>
       &nbsp;&nbsp;&nbsp;"softSkills" : "Methode Agile, Teamwork",<br>
-      &nbsp;&nbsp;&nbsp;"favoriteIDE" : "VS Code",<br>
-      &nbsp;&nbsp;&nbsp;"city" : "Lyon, France"<br>
+      &nbsp;&nbsp;&nbsp;"city" : "Nantes/Paris, France"<br>
     }`,
 
     "experience" : `<tr>
@@ -244,35 +237,28 @@ const data = {
     <th>Poste</th>
     <th class="description">Description</th>
   </tr>
+  <td class="center">Nov 2022 - Dec 2022</td>
+  <td>My little lashes</td>
+  <td>Développeur web</td>
+  <td>Mise en place d'un site vitrine avec bootstrap, JS (JavaScript), et PHP.</td>
+</tr>
   <tr>
-    <td class="center">Juin 2016 - Juin 2018</td>
-    <td>Klevery</td>
-    <td>Co-fondateur</td>
-    <td>Logiciel d'optimisation de tournée à destination des professionnels disposant d'une forte activité de livraison ou de déplacement.</td>
-  </tr> 
-  <tr>
-    <td class="center">Sept 2017 - Sept 2018</td>
-    <td>Crédit Agricole Centre-Est</td>
-    <td>Expert analyste risque</td>
-    <td>Etude de faisabilité des dossiers, contact fréquent avec les chargés d’affaires sur le terrain, étude juridique des contrats bilatéral/arrangeur.</td>
-  </tr> 
-  <tr>
-    <td class="center">Janv 2019 - Juil 2021</td>
-    <td>CIC - Lyonnaise de Banque</td>
+    <td class="center">Mars 2021 - Sept 2021</td>
+    <td>Marelli & Fils</td>
     <td>Chargé d'Affaires Professionnels</td>
-    <td>Accompagnement du chef d'entreprise sur ses projets personnels et professionnels, financement des besoins, accompagnement sur l'optimisation du bilan et des projets.</td>
-  </tr>     
+    <td>Gestion d'équipe, établissement de devis de chantier, accompagnement sur l'optimisation des projets.</td>
+  </tr>
   <tr>
-    <td class="center">Dec 2019 - Today</td>
-    <td>Overstats</td>
-    <td>Co-fondateur</td>
-    <td>Overstats est un outil de gestion d'équipe pour le jeu Overwatch développé par Blizzard utilisé par plus de 100 équipes à travers le monde. Gestion des partenariats et du dévelopment de l'application.</td>
-  </tr> 
+    <td class="center">2019 - 2020</td>
+    <td>Kelly Services · Intérimaire</td>
+    <td>Manutentionnaire</td>
+    <td>Rien de très intéressant à dire là-dessus...</td>
+  </tr>
   <tr>
-    <td class="center">Aout 2021 - Today</td>
-    <td>Startup101</td>
-    <td>Rédacteur</td>
-    <td>Redacteur pour la newsletter Startup101 qui explore les débuts des grandes startup d’aujourd’hui tels que Facebook, Instagram, Google et bien d’autres.</td>
+    <td class="center">2013 - 2018</td>
+    <td>KFC</td>
+    <td>Responsable de service</td>
+    <td>Ouverture ou fermeture du restaurant. Gestion post-Rush : comptage des caisses, gestions des stocks, HACCP.</td>
   </tr>`,
 
   "cv" : `Le téléchargement du CV va commencer.`,
@@ -282,9 +268,10 @@ const data = {
   "redirectGithub" : `Vous allez être redirigé vers Github.`,
 
   "hobby" : `{<br>
-    &nbsp;&nbsp;&nbsp;"Sport" : "Volley-ball, Vélo",<br>
-    &nbsp;&nbsp;&nbsp;"Programmation" : "JS, Rails",<br>
-    &nbsp;&nbsp;&nbsp;"Other" : "Entrepreneuriat, Photographie, Lecture autobiographie, Design, Marketing"<br>
+    &nbsp;&nbsp;&nbsp;"Sport" : "Hockey"<br>
+    &nbsp;&nbsp;&nbsp;"Programmation" : "JS, Node"<br>
+    &nbsp;&nbsp;&nbsp;"Gaming" : "FPS"<br>
+    &nbsp;&nbsp;&nbsp;"Autre" : "Design, blockchaine"<br>
   }`,
 
   "project" : `<table class="result">
@@ -359,7 +346,7 @@ const data = {
     <td>Transforme n'importe quelle vidéo YouTube en une plateforme de e-learning avec la possibilité de voir les chapitres de la video, prendre des notes avec des timestamps associés, etc.
     - En cours de développement afin d'intégrer un backend Rails API pour enregistrer les informations.</td>
     <td class="center">Non</td>
-    <td class="center"><a href="mailto:reygner0224@gmail.com?subject=Repository privée&body=Quentin MINZIERE> ce repository est privée dites moi pourquoi vous souhaitez y avoir accès." target="blank">Lien</a></td>
+    <td class="center"><a href="mailto:reygner0224@gmail.com?subject=Repository privée&body=Quentin MINZIERE> ce repository est privée dites a propos pourquoi vous souhaitez y avoir accès." target="blank">Lien</a></td>
   </tr>
   <tr>
   <td class="center">9</td>
@@ -370,46 +357,46 @@ const data = {
   <td class="center"><a href="https://github.com/guillaume-rygn/FindHouse" target="blank">Link</a></td>
 </tr>
   </table><br>
-  <p class="result"><em>Vous pouvez voir le site rattaché au projet en utilisant la commande</em> <code>mes-projets[index].website</code><em>, index étant le numéro associé au projet.</em></p>`,
+  <p class="result"><em>Vous pouvez voir le site rattaché au projet en utilisant la commande</em> <code>projets[index].website</code><em>, index étant le numéro associé au projet.</em></p>`,
 
   "notfound" : `<span class="notfoundlanguage"><br><br>Tapez la commande <code>help</code> pour afficher la liste des commandes disponibles.</p></span>`,
 
   "website" : `<p class="result websiteresult">Vous allez être redirigé vers le site web du projet.</p>`,
 
   "ls1" : `
-    <div>a-propos</div>
+    <div>a propos</div>
     <div>experiences</div>
     <div>get cv</div>
     <div>get linkedin</div>
     <div>get github</div>
     <div>help</div>
     <div>passions</div>
-    <div>mes-projets</div>
+    <div>projets</div>
     <div>clear</div>
-    <div>mes-projets[1].website</div>
-    <div>mes-projets[2].website</div>
-    <div>mes-projets[3].website</div>
-    <div>mes-projets[4].website</div>
-    <div>mes-projets[5].website</div>
-    <div>mes-projets[6].website</div>
-    <div>mes-projets[7].website</div>`,
+    <div>projets[1].website</div>
+    <div>projets[2].website</div>
+    <div>projets[3].website</div>
+    <div>projets[4].website</div>
+    <div>projets[5].website</div>
+    <div>projets[6].website</div>
+    <div>projets[7].website</div>`,
 
   "ls2" : `
-    <div>a-propos</div>
+    <div>a propos</div>
     <div>experiences</div>
     <div>get cv</div>
     <div>get linkedin</div>
     <div>get github</div>
     <div>passions</div>
-    <div>mes-projets</div>
+    <div>projets</div>
     <div>clear</div>
-    <div>mes-projets[1].website</div>
-    <div>mes-projets[2].website</div>
-    <div>mes-projets[3].website</div>
-    <div>mes-projets[4].website</div>
-    <div>mes-projets[5].website</div>
-    <div>mes-projets[6].website</div>
-    <div>mes-projets[7].website</div>`,
+    <div>projets[1].website</div>
+    <div>projets[2].website</div>
+    <div>projets[3].website</div>
+    <div>projets[4].website</div>
+    <div>projets[5].website</div>
+    <div>projets[6].website</div>
+    <div>projets[7].website</div>`,
 
   }
 }

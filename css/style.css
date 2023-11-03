@@ -8,6 +8,7 @@
 body {
     background-color: #1e1e1e;
 }
+
 .header {
     background: #3c3c3c;
     padding: 3px;
@@ -243,7 +244,6 @@ display: none;
   width: 100%;
   height: 24px;
   background: #007acc;
-  align-items: center;
   justify-content: space-between;
     
 }
@@ -527,12 +527,13 @@ ul.left li {
     margin: 0 5px;
 }
 
+
 .console {
     position: absolute;
     bottom: 24px;
     left: 235px;
     width: calc(100% - 235px);
-    height: 183px;
+    height: 210px;
   
 }
 
@@ -628,33 +629,6 @@ svg{
 }
 .content {
     display: none;
-}
-.portfolio {
-  width: calc(100% - 235px);
-  height: calc(100% - 301px);
-  position: fixed;
-  bottom: 206px;
-  left: 235px;
-  overflow: auto;
-  color: #ccc;
-}
-
-@media only screen and (max-width: 920px) {
-    .portfolio {
-      width: calc(100% - 52px);
-      height: calc(100vh - 125px);
-      position: fixed;
-      bottom: 29px;
-      left: 52px;
-      overflow: auto;
-    }
-}
-@media only screen and (max-width: 480px) {
-  .portfolio{
-    width: calc(100% - 52px);
-    left: 52px;
-    height: calc(100vh - 65px);
-  }
 }
 .tabs-container {
   display: flex;
@@ -891,7 +865,7 @@ display: none;
   .terminal{
     padding: 10px;
     color: #fff;
-    height: calc(100% - 0px);
+    height: calc(100% - -27px);
     overflow-y: scroll;
     transition: 0.3s ease;
   }
@@ -907,9 +881,10 @@ display: none;
   
   code{
     color: #ff5555;
-    font-size: 12px;
+    font-size: 13px;
   }
   
+
   .commande{
     display: inline-block;
     color:#fff;
@@ -1065,6 +1040,38 @@ display: none;
   }
 
 /* Portfolio */
+
+.portfolio {
+  width: calc(100% - 235px);
+  height: calc(100% - 331px);
+  position: fixed;
+  bottom: 234px;
+  left: 235px;
+  overflow: auto;
+  color: #ccc;
+}
+
+@media only screen and (max-width: 920px) {
+  .portfolio {
+    width: calc(100% - 52px);
+    height: calc(100vh - 125px);
+    position: fixed;
+    bottom: 29px;
+    left: 52px;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .portfolio {
+    width: calc(100% - 52px);
+    left: 52px;
+    height: calc(100vh - 65px);
+  }
+}
+
+/* SCROLL PORTFOLIO */
+
 
 /* MINIMAP */
 
