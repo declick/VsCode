@@ -642,10 +642,11 @@ svg{
   left: 235px;
 
 }
+
 @media only screen and (max-width: 920px) {
   .tabs-container{
-    width: calc(100% - 52px);
-    left: 52px;
+    width: calc(100% - 51px);
+    left: 51px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -697,8 +698,8 @@ display: none;
 }
 @media only screen and (max-width: 920px) {
   .url-container{
-    width: calc(100% - 52px);
-    left: 52px;
+    width: calc(100% - 51px);
+    left: 51px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -722,6 +723,25 @@ display: none;
     gap: 10px;
     align-items: center;
 
+}
+/* HIDDEN BOUTON PORTFOLIO */
+.console.menu-hidden {
+  left: 51px;
+  width: calc(100% - 51px);
+}
+
+.portfolio.menu-hidden {
+  left: 51px;
+  width: calc(100% - 51px);
+}
+.tabs-container.menu-hidden {
+  left: 51px;
+  width: calc(100% - 51px);
+}
+
+.url-container.menu-hidden {
+  left: 51px;
+  width: calc(100% - 51px);
 }
 
 /* ChatBot */
@@ -1053,19 +1073,19 @@ display: none;
 
 @media only screen and (max-width: 920px) {
   .portfolio {
-    width: calc(100% - 52px);
+    width: calc(100% - 51px);
     height: calc(100vh - 125px);
     position: fixed;
     bottom: 29px;
-    left: 52px;
+    left: 51px;
     overflow: auto;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .portfolio {
-    width: calc(100% - 52px);
-    left: 52px;
+    width: calc(100% - 51px);
+    left: 51px;
     height: calc(100vh - 65px);
   }
 }

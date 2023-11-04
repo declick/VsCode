@@ -304,6 +304,24 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+
+document.addEventListener('DOMContentLoaded', function () {
+  const toggleMenuButton = document.getElementById('toggleMenu');
+  const menuOption = document.querySelector('.menu-option');
+  const console = document.querySelector('.console');
+  const portfolio = document.querySelector('.portfolio');
+  const tabsContainer = document.querySelector('.tabs-container');
+  const urlContainer = document.querySelector('.url-container');
+
+  toggleMenuButton.addEventListener('click', function () {
+    menuOption.classList.toggle('hidden');
+    console.classList.toggle('menu-hidden');
+    portfolio.classList.toggle('menu-hidden');
+    tabsContainer.classList.toggle('menu-hidden');
+    urlContainer.classList.toggle('menu-hidden');
+  });
+});
+
 /* MINIMAP */
 
 
