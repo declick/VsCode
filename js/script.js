@@ -31,8 +31,49 @@ const toggleSubMenu = (element) => {
   }
 };
 
+/* MENU TOGGLE */
 
-            
+document.addEventListener('DOMContentLoaded',  () => {
+  const toggleMenuButton = document.getElementById('toggleMenu');
+  const menuOption = document.querySelector('.menu-option');
+  const console = document.querySelector('.console');
+  const portfolio = document.querySelector('.portfolio');
+  const tabsContainer = document.querySelector('.tabs-container');
+  const urlContainer = document.querySelector('.url-container');
+
+  toggleMenuButton.addEventListener('click', () => {
+    menuOption.classList.toggle('hidden');
+    console.classList.toggle('menu-hidden');
+    portfolio.classList.toggle('menu-hidden');
+    tabsContainer.classList.toggle('menu-hidden');
+    urlContainer.classList.toggle('menu-hidden');
+  });
+});
+
+/* POPUP PHOTO */
+
+document.addEventListener('DOMContentLoaded', () => {
+  let profileIcon = document.getElementById('profileIcon');
+  let profileImage = document.getElementById('profileImage');
+  let profileText = document.getElementById('profileText');
+
+  // Gestionnaire pour le survol
+  profileIcon.addEventListener('mouseover', () => {
+    profileImage.src = './assets/images/me.png';
+    profileImage.style.display = 'block';
+    profileText.style.display = 'block';
+  });
+
+  // Gestionnaire pour quitter le survol
+  profileIcon.addEventListener('mouseout', () => {
+    profileImage.style.display = 'none';
+    profileText.style.display = 'none';
+  });
+});
+
+/* DARK MODE */      
+
+
 /* TACHTBOT */
 
 let terminal = document.getElementById("terminal");
@@ -282,47 +323,7 @@ function logKey(e){
 
 
 
-/* POPUP PHOTO */
-
-document.addEventListener('DOMContentLoaded', () => {
-  let profileIcon = document.getElementById('profileIcon');
-  let profileImage = document.getElementById('profileImage');
-  let profileText = document.getElementById('profileText');
-
-  // Gestionnaire pour le survol
-  profileIcon.addEventListener('mouseover', () => {
-    profileImage.src = './assets/images/me.png';
-    profileImage.style.display = 'block';
-    profileText.style.display = 'block';
-  });
-
-  // Gestionnaire pour quitter le survol
-  profileIcon.addEventListener('mouseout', () => {
-    profileImage.style.display = 'none';
-    profileText.style.display = 'none';
-  });
-});
-
-
-
-document.addEventListener('DOMContentLoaded', function () {
-  const toggleMenuButton = document.getElementById('toggleMenu');
-  const menuOption = document.querySelector('.menu-option');
-  const console = document.querySelector('.console');
-  const portfolio = document.querySelector('.portfolio');
-  const tabsContainer = document.querySelector('.tabs-container');
-  const urlContainer = document.querySelector('.url-container');
-
-  toggleMenuButton.addEventListener('click', function () {
-    menuOption.classList.toggle('hidden');
-    console.classList.toggle('menu-hidden');
-    portfolio.classList.toggle('menu-hidden');
-    tabsContainer.classList.toggle('menu-hidden');
-    urlContainer.classList.toggle('menu-hidden');
-  });
-});
-
 /* MINIMAP */
 
 
-/* DARK MODE */
+
