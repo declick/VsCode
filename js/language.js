@@ -178,8 +178,7 @@ const data = {
     <div>projects[4].website</div>
     <div>projects[5].website</div>
     <div>projects[6].website</div>
-    <div>projects[7].website</div>
-  `,
+    <div>projects[7].website</div>`,
 
   },
 

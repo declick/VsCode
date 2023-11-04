@@ -348,7 +348,8 @@ function logKey(e){
       
       } else {
         terminal = document.getElementById("terminal");
-        terminal.insertAdjacentHTML("beforeend", `<i class="far fa-lightbulb">&nbsp;<p class="commande" id="answer${i}">PS C:/Desktop/VsCode:~/portfolio$</p><input type="text" autofocus class="input" id="input${i}" tabindex="-1">`);
+        terminal.insertAdjacentHTML("beforeend", `<i class="far fa-lightbulb">&nbsp;<p class="commande" id="answer${i}">PS C:/Desktop/VsCode:~/portfolio$</p><input type="text" class="input" id="input${i}" tabindex="-1">`);
+        document.getElementById(`input${i}`).focus();        
       }
       document.getElementById(`input${i}`).focus();
      
