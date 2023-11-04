@@ -50,6 +50,42 @@ document.addEventListener('DOMContentLoaded',  () => {
   });
 });
 
+/* NAVIGATION */
+document.addEventListener('DOMContentLoaded', () => {
+  // Fonction de défilement fluide
+  const scrollToSection = (targetSection) => {
+      let targetElement = document.getElementById(targetSection);
+      if (targetElement) {
+          targetElement.scrollIntoView({
+              behavior: 'smooth'
+          });
+      }
+  };
+
+  // Écouter les clics sur les éléments du menu
+  let menuItems = document.querySelectorAll('.show-pre li');
+  menuItems.forEach((menuItem) => {
+      menuItem.addEventListener('click', (e) => {
+          e.preventDefault();
+          let targetSection = menuItem.querySelector('span').textContent.toLowerCase().trim();
+          scrollToSection(targetSection);
+      });
+  });
+
+  // Écouter les clics sur les onglets
+  let tabItems = document.querySelectorAll('.tabs-container .tabs');
+  tabItems.forEach((tabItem) => {
+      tabItem.addEventListener('click', (e) => {
+          e.preventDefault();
+          let targetSection = tabItem.textContent.toLowerCase().trim();
+          scrollToSection(targetSection);
+      });
+  });
+});
+
+
+
+
 /* POPUP PHOTO */
 
 document.addEventListener('DOMContentLoaded', () => {
