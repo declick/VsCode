@@ -510,8 +510,10 @@ ul.right li i {
 }
 
 ul.left {
-  
-    float: right;
+  font-size: 12px;
+  float: right;
+  display: flex;
+  align-items: center;
 }
 
 @media only screen and (max-width: 920px) {

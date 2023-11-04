@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Gestionnaire pour le survol
   profileIcon.addEventListener('mouseover', () => {
-    profileImage.src = './assets/images/me.png';
+    profileImage.src = './assets/images/me.WebP';
     profileImage.style.display = 'block';
     profileText.style.display = 'block';
   });
