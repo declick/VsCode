@@ -1090,8 +1090,40 @@ display: none;
   }
 }
 
-/* SCROLL PORTFOLIO */
+/* Styles for different sections */
+.portfolio-home,
+.portfolio-about,
+.portfolio-projects,
+.portfolio-contact {
 
+  margin: 10px;
+  padding: 15px;
+
+}
+.portfolio-home {
+ 
+}
+
+.portfolio-about {
+  
+}
+
+.portfolio-projects {
+ 
+}
+
+.portfolio-contact {
+ 
+}
+
+.portfolio h1 {
+  font-size: 20px;
+}
+
+.portfolio p {
+  font-size: 16px;
+  color: #888;
+}
 
 /* MINIMAP */
 
