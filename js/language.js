@@ -1,8 +1,7 @@
 const data = {
   "english":
   {
-
-    
+  
     "welcome" : "Welcome to my portfolio !" + "</br>" + 
     " <mark>&nbsp; *  History restored </mark>"+ "</br>" +
     "guest@mirje.dev:$ ~(c) MIRJE. All rights reserved 2023." + "</br></br>" +
@@ -85,77 +84,60 @@ const data = {
   </tr>
   <tr>
     <td class="center">1</td>
-    <td class="center">Catshop</td>
-    <td class="center">Rails Ruby Git HTML CSS JS AJAX Heroku</td>
-    <td>Cat Photo Selling Marketplace</td>
-    <td class="center">Yes</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/CatShop" target="blank">Link</a></td>
-  </tr>
+    <td class="center">mylittlelashes</td>
+    <td class="center">HTML CSS JS PHP Hostinger</td>
+    <td>Setting up a showcase website with Bootstrap for a company specializing in facial beauty.</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://github.com/declick/mylittlelashes" target="blank">Lien</a></td>
+  </tr> 
   <tr>
     <td class="center">2</td>
-    <td class="center">Kata Temple</td>
-    <td class="center">HTML CSS JS Heroku</td>
-    <td>30-day challenge to improve in technical test with Kata Temple. Attempt to complete temple sensei katas from level 8kyu to 4kyu in 30 days - Ruby Edition</td>
+    <td class="center">HackGit</td>
+    <td class="center">PYTHON</td>
+    <td>The goal was to complete a year of contributions on GitHub. This hack accomplishes that!</td>
     <td class="center">No</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/Kata-Temple" target="blank">Link</a></td>
-  </tr>
+    <td class="center"><a href="https://github.com/declick/HackGit" target="blank">Lien</a></td>
+  </tr> 
   <tr>
     <td class="center">3</td>
-    <td class="center">ScoreIT</td>
-    <td class="center">Rails Ruby Git HTML CSS JS AJAX Heroku</td>
-    <td>The objective of ScoreIT is to offer a tool for creating credibility for start-up projects aimed at raising funds from investors or financial institutions. We offer a fully online platform allowing startup founders to obtain a rating on their project, thus giving it a credibility score in order to reassure future potential investors.</td>
-    <td class="center">Yes</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/ScoreIT" target="blank">Link</a></td>
-  </tr>
+    <td class="center">Cryptique Hash</td>
+    <td class="center">HTML CSS JS GOOGLE-PLAY</td>
+    <td>An application that encrypts plain text and decrypts the encrypted text. The code is resistant to brute force attacks, implemented using SHA512 encryption.</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://play.google.com/store/apps/details?id=com.declick.cryptiquehash" target="blank">Lien</a></td>
+  </tr> 
   <tr>
     <td class="center">4</td>
-    <td class="center">Monolith Arena</td>
-    <td class="center">HTML CSS JS</td>
-    <td>48h to create a 2d game on the theme of a battle arena using Javascript classes</td>
+    <td class="center">Portfolio Node</td>
+    <td class="center">HTML CSS JS NODE</td>
+    <td>The portfolio uses Axios to fetch GitHub repositories and display them as examples on the homepage, as well as in full detail in the "Projects" section, leveraging the GitHub API.</td>
     <td class="center">No</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/Monolith-Arena" target="blank">Link</a></td>
-  </tr>
+    <td class="center"><a href="https://github.com/declick/PortfolioNode" target="blank">Lien</a></td>
+  </tr> 
   <tr>
-    <td class="center">5</td>
-    <td class="center">My Dark Theme.JS</td>
-    <td class="center">HTML CSS JS</td>
-    <td>Dark mode generator with customization of dark mode colors and possibility to copy the code to add it directly to your site. To make it work you have to vary the colors in CSS.</td>
-    <td class="center">No</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/MyDarkTheme.JS" target="blank">Link</a></td>
-  </tr>
+  <td class="center">5</td>
+  <td class="center">Projet Final</td>
+  <td class="center">HTML CSS JS REACT NODE SQL</td>
+  <td>Final year projects completed in one month, a showcase website built with React/Node and a database.</td>
+  <td class="center">No</td>
+  <td class="center"><a href="https://github.com/declick/Projet-Final" target="blank">Lien</a></td>
+</tr> 
   <tr>
     <td class="center">6</td>
-    <td class="center">EmojiFace</td>
+    <td class="center">Quizz App</td>
     <td class="center">HTML CSS JS</td>
-    <td>60 seconds to reproduce as many emoji as possible with your face! Use of webcam and face detection thanks to AI!</td>
+    <td>You need to find words of varying lengths based on categories, fortunately, you have assistance.</td>
     <td class="center">No</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/EmojiFace" target="blank">Link</a></td>
-  </tr>
+    <td class="center"><a href="https://github.com/declick/Quizz-App" target="blank">Lien</a></td>
+  </tr> 
   <tr>
-    <td class="center">7</td>
-    <td class="center">Portfolio Terminal</td>
-    <td class="center">HTML CSS JS</td>
-    <td>Presentation of my portfolio as a terminal. Integration of autocomplete, command history, etc. The latter can be used as a real terminal.</td>
-    <td class="center">No</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/Portfolio-Terminal" target="blank">Link</a></td>
-  </tr>
-  <tr>
-    <td class="center">8</td>
-    <td class="center">YouLearn</td>
-    <td class="center">React JS SCSS</td>
-    <td>Turns any YouTube video into an e-learning platform with the ability to view chapters in the video, take notes with associated timestamps, etc.
-    - Under development to integrate a Rails API backend to record information.</td>
-    <td class="center">No</td>
-    <td class="center"><a href="mailto:reygner0224@gmail.com?subject=This repository is pravate&body=Quentin MINZIERE> this repository is private tell me why you want to have access to it." target="blank">Link</a></td>
-  </tr>
-  <tr>
-    <td class="center">9</td>
-    <td class="center">FindHouse</td>
-    <td class="center">React JS CSS Rails API</td>
-    <td>Creation of a real estate sales platform with a React JS frontend and a Rails API backend.</td>
-    <td class="center">Yes</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/FindHouse" target="blank">Link</a></td>
-  </tr>
+  <td class="center">7</td>
+  <td class="center">Portfolio VsCode</td>
+  <td class="center">HTML CSS JS</td>
+  <td>Presentation of my portfolio with a nod to VSCode. Integration of autocomplete, command history, etc. for the terminal.</td>
+  <td class="center">No</td>
+  <td class="center"><a href="https://github.com/declick/VsCode" target="blank">Lien</a></td>
+</tr>
   </table><br>
   <p class="result"><em>You can see the site attached to the project using the command</em> <code>projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
 
@@ -240,7 +222,7 @@ const data = {
   <td class="center">Nov 2022 - Dec 2022</td>
   <td>My little lashes</td>
   <td>Développeur web</td>
-  <td>Mise en place d'un site vitrine avec bootstrap, JS (JavaScript), et PHP.</td>
+  <td>Mise en place d'un site vitrine avec Bootstrap pour une entreprise spécialisée dans la beauté du visage.</td>
 </tr>
   <tr>
     <td class="center">Mars 2021 - Sept 2021</td>
@@ -285,76 +267,59 @@ const data = {
   </tr>
   <tr>
     <td class="center">1</td>
-    <td class="center">Catshop</td>
-    <td class="center">Rails Ruby Git HTML CSS JS AJAX Heroku</td>
-    <td>Marketplace de vente de photo de chat</td>
-    <td class="center">Oui</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/CatShop" target="blank">Lien</a></td>
+    <td class="center">mylittlelashes</td>
+    <td class="center">HTML CSS JS PHP Hostinger</td>
+    <td>Mise en place d'un site vitrine avec Bootstrap pour une entreprise spécialisée dans la beauté du visage.</td>
+    <td class="center">Non</td>
+    <td class="center"><a href="https://github.com/declick/mylittlelashes" target="blank">Lien</a></td>
   </tr> 
   <tr>
     <td class="center">2</td>
-    <td class="center">Kata Temple</td>
-    <td class="center">HTML CSS JS Heroku</td>
-    <td>Défi de 30 jours pour s'améliorer en test technique avec Kata Temple. Tente de terminer les katas du sensei du temple du niveau 8kyu à 4kyu en 30 jours - Ruby Edition</td>
+    <td class="center">HackGit</td>
+    <td class="center">PYTHON</td>
+    <td>L'objectif était de remplir une année de contributions sur GitHub. Ce Hack le fait!</td>
     <td class="center">Non</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/Kata-Temple" target="blank">Lien</a></td>
+    <td class="center"><a href="https://github.com/declick/HackGit" target="blank">Lien</a></td>
   </tr> 
   <tr>
     <td class="center">3</td>
-    <td class="center">ScoreIT</td>
-    <td class="center">Rails Ruby Git HTML CSS JS AJAX Heroku</td>
-    <td>L’objectif de ScoreIT est de proposer un outil de crédibilisation des projets de startups dont l’optique serait de lever des fonds auprès d’investisseurs ou d’établissements financiers. Nous proposons une plateforme entièrement en ligne permettant aux fondateurs de startups de pouvoir obtenir une notation sur leur projet permettant ainsi de donner un score de crédibilité à ce dernier dans le but de rassurer les futurs potentiels investisseurs.</td>
-    <td class="center">Oui</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/ScoreIT" target="blank">Lien</a></td>
+    <td class="center">Cryptique Hash</td>
+    <td class="center">HTML CSS JS Google-play</td>
+    <td>Une application qui chiffre du texte brut et déchiffre le texte chiffré. Code difficile à casser en Brut Force en SHA512</td>
+    <td class="center">Non</td>
+    <td class="center"><a href="https://play.google.com/store/apps/details?id=com.declick.cryptiquehash" target="blank">Lien</a></td>
   </tr> 
   <tr>
     <td class="center">4</td>
-    <td class="center">Monolith Arena</td>
-    <td class="center">HTML CSS JS</td>
-    <td>48h pour créer un jeu en 2d sur le thème d'une arène de combat en utilisant les classes de Javascript</td>
+    <td class="center">Portfolio Node</td>
+    <td class="center">HTML CSS JS NODE</td>
+    <td>Le portfolio utilise Axios pour aller récupérer les dépôts GitHub afin de les afficher en exemple sur la page d'accueil, ainsi que dans leur intégralité dans la section "Projets" grâce à l'API GitHub.</td>
     <td class="center">Non</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/Monolith-Arena" target="blank">Lien</a></td>
+    <td class="center"><a href="https://github.com/declick/PortfolioNode" target="blank">Lien</a></td>
   </tr> 
   <tr>
-    <td class="center">5</td>
-    <td class="center">My Dark Theme.JS</td>
-    <td class="center">HTML CSS JS</td>
-    <td>Generateur de mode sombre avec personnalisation des couleurs du mode sombre et possibilité de copier le code pour l ajouter directement sur son site. Pour le faire fonctionner il faut variabiliser les couleurs sous CSS.</td>
-    <td class="center">Non</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/MyDarkTheme.JS" target="blank">Lien</a></td>
-  </tr> 
+  <td class="center">5</td>
+  <td class="center">Projet Final</td>
+  <td class="center">HTML CSS JS REACT NODE SQL</td>
+  <td>Projets de fin d'étude fait en un mois, site vitrine React/Node avec base de donner.</td>
+  <td class="center">Non</td>
+  <td class="center"><a href="https://github.com/declick/Projet-Final" target="blank">Lien</a></td>
+</tr> 
   <tr>
     <td class="center">6</td>
-    <td class="center">EmojiFace</td>
+    <td class="center">Quizz App</td>
     <td class="center">HTML CSS JS</td>
-    <td>60 secondes pour reproduire un maximum d'emoji avec votre visage ! Utilisation de la webcam et de la détection de visage grâce à l IA !</td>
+    <td>Vous devez retrouver des mots de différentes longueurs en fonction des catégories, heureusement vous avez de l'aide.</td>
     <td class="center">Non</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/EmojiFace" target="blank">Lien</a></td>
+    <td class="center"><a href="https://github.com/declick/Quizz-App" target="blank">Lien</a></td>
   </tr> 
   <tr>
-    <td class="center">7</td>
-    <td class="center">Portfolio Terminal</td>
-    <td class="center">HTML CSS JS</td>
-    <td>Présentation de mon portefolio sous forme de terminal. Intégration de l'autocomplétion, de l'historique des commandes, etc. Ce dernier peut s'utiliser comme un vrai terminal.</td>
-    <td class="center">Non</td>
-    <td class="center"><a href="https://github.com/guillaume-rygn/Portfolio-Terminal" target="blank">Lien</a></td>
-  </tr>
-  <tr>
-    <td class="center">8</td>
-    <td class="center">YouLearn</td>
-    <td class="center">React JS</td>
-    <td>Transforme n'importe quelle vidéo YouTube en une plateforme de e-learning avec la possibilité de voir les chapitres de la video, prendre des notes avec des timestamps associés, etc.
-    - En cours de développement afin d'intégrer un backend Rails API pour enregistrer les informations.</td>
-    <td class="center">Non</td>
-    <td class="center"><a href="mailto:reygner0224@gmail.com?subject=Repository privée&body=Quentin MINZIERE> ce repository est privée dites a propos pourquoi vous souhaitez y avoir accès." target="blank">Lien</a></td>
-  </tr>
-  <tr>
-  <td class="center">9</td>
-  <td class="center">FindHouse</td>
-  <td class="center">React JS CSS Rails API</td>
-  <td>Création d'une plateforme de vente de bien immobilier avec un frontend React JS et un backend Rails API.</td>
-  <td class="center">Oui</td>
-  <td class="center"><a href="https://github.com/guillaume-rygn/FindHouse" target="blank">Link</a></td>
+  <td class="center">7</td>
+  <td class="center">Portfolio VsCode</td>
+  <td class="center">HTML CSS JS</td>
+  <td>Présentation de mon portefolio avec un clin d'oeil à VSCode. Intégration de l'autocomplétion, de l'historique des commandes, etc. pour le terminal.</td>
+  <td class="center">Non</td>
+  <td class="center"><a href="https://github.com/declick/VsCode" target="blank">Lien</a></td>
 </tr>
   </table><br>
   <p class="result"><em>Vous pouvez voir le site rattaché au projet en utilisant la commande</em> <code>projets[index].website</code><em>, index étant le numéro associé au projet.</em></p>`,
