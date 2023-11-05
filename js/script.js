@@ -50,6 +50,19 @@ document.addEventListener('DOMContentLoaded',  () => {
   });
 });
 
+/* CONSOLE TOGGLE */
+document.addEventListener('DOMContentLoaded',  () => {
+  const toggleMenuButton = document.getElementById('toggleConsole');
+  const menuOption = document.querySelector('.console');
+  const portfolio = document.querySelector('.portfolio');
+
+
+  toggleMenuButton.addEventListener('click', () => {
+    menuOption.classList.toggle('hidden');
+    portfolio.classList.toggle('console-hidden');
+  });
+});
+
 /* NAVIGATION */
 document.addEventListener('DOMContentLoaded', () => {
   // Fonction de défilement fluide
