@@ -1291,7 +1291,6 @@ textarea {
   color: #fff;
   text-align: center;
   width: 100%;
-  line-height: 1.6;
 }
 
 .d-none {
@@ -1365,7 +1364,7 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 90rem;
-  width: 92%;
+  width: 50%;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -1385,7 +1384,6 @@ textarea {
   margin-top: 5rem;
   text-align: center;
 }
-
 .about {
   color: #fff;
 }
