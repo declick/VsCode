@@ -409,7 +409,7 @@ hr {
     color: #ccc;
     padding: 5px;
     position: relative;
-    cursor: pointer;
+
 }
 
 .menu-option li:before {
@@ -551,9 +551,11 @@ display: none;
   bottom: 25px;
   height: calc(100% - 124px);
 }
-#toggleConsole{
+#toggleConsole:hover {
   cursor: pointer;
+
 }
+
 @media only screen and (max-width: 920px) {
     .console {
 display: none;
@@ -642,7 +644,6 @@ mark{
 svg{
     color: #ffffff;
     width: 15px;
-    height: 15px;
 }
 .content {
     display: none;
