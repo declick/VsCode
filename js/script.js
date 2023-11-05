@@ -340,7 +340,7 @@ function logKey(e){
         else {
           terminal = document.getElementById("terminal");
           terminal.insertAdjacentHTML("beforeend", `<p class="notfound result">${result}: command not found
-          ${data[language].notfoundmenu}`);
+          ${data[language].notfoundmenu}</p>`);
         }        
       }
       if (y === 1){

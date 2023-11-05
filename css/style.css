@@ -490,30 +490,45 @@ ul.bottom-links li:hover {
 ul.bottom-links li:hover:before {
     content: unset;
 }
-ul.right {
-    float: left;
-}
 
 ul.right li {
   display: inline-flex;
   margin: 0px 5px;
   gap: 5px;
-  align-items: center;
+  align-items: baseline;
   text-align: center;
   font-size: small;
   color: #fff;
 }
-
 ul.right li i {
-    color: #fff;
-    font-size: 12px;
-}
-
-ul.left {
+  color: #fff;
   font-size: 12px;
-  float: right;
-  display: flex;
-  align-items: center;
+}
+ul.right li a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  height: 100%;
+}
+ul.right li.spotify a:hover {
+margin: 0;
+padding: 3px 0 4px 0;
+
+  background: rgba(8, 172, 248, 0.801);
+
+}
+ul.left li {
+  display: inline-flex;
+  margin: 0px 5px;
+  gap: 5px;
+  align-items: baseline;
+  text-align: center;
+  font-size: small;
+  color: #fff;
+}
+ul.left li i {
+  color: #fff;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 920px) {
@@ -521,14 +536,6 @@ ul.left {
 display: none;
   }
 }
-
-ul.left li {
-    display: inline-block;
-    font-size: 12px;
-    color: #ffffff;
-    margin: 0 5px;
-}
-
 
 .console {
     position: absolute;
