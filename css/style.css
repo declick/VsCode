@@ -1105,7 +1105,7 @@ display: none;
   padding: 15px;
 
 }
-/* .portfolio-home {
+.portfolio-home {
  
 }
 
@@ -1119,13 +1119,6 @@ display: none;
 
 .portfolio-contact {
  
-} */
-
-
-
-.portfolio p {
-  font-size: 16px;
-  color: #888;
 }
 
 a {
@@ -1307,7 +1300,6 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: 100%;
   position: relative;
@@ -1382,7 +1374,6 @@ textarea {
 
 @media only screen and (max-width: 37.5em) {
   .home-hero__content {
-    padding: 19rem 0 13rem 0;
     margin: auto;
     position: static;
     transform: translate(0, 0);
@@ -1400,7 +1391,7 @@ textarea {
 }
 
 .about {
-  background: #fafafa;
+  color: #fff;
 }
 
 .about__content {
@@ -1474,7 +1465,6 @@ textarea {
 }
 
 .projects__row-content {
-  padding: 2rem 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -1500,9 +1490,7 @@ textarea {
 
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
-  background-size: cover;
-  background-position: center;
+  color: #fff;
 }
 
 .contact__form-container {
@@ -1600,7 +1588,6 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1751,7 +1738,6 @@ textarea {
   border-radius: 50px;
   overflow: hidden;
   margin-right: 1.5rem;
-  background: #0062b9;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -1826,7 +1812,6 @@ textarea {
 }
 
 .header__sm-menu {
-  background: #fff;
   position: absolute;
   width: 100%;
   top: 100%;
@@ -1875,7 +1860,6 @@ textarea {
 }
 
 .main-footer {
-  background: #000;
   color: #fff;
 }
 
@@ -1990,5 +1974,6 @@ textarea {
     top: 27px;
   }
 }
+
 /* MINIMAP */
 
