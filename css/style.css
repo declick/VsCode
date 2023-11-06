@@ -1103,7 +1103,7 @@ display: none;
 
 @media only screen and (max-width: 920px) {
   .portfolio {
-    width: calc(100% - 51px);
+    width: calc(100% - 50px);
     height: calc(100vh - 125px);
     position: fixed;
     bottom: 29px;
@@ -1114,7 +1114,7 @@ display: none;
 
 @media only screen and (max-width: 480px) {
   .portfolio {
-    width: calc(100% - 51px);
+    width: calc(100% - 50px);
     left: 51px;
     height: calc(100vh - 29px);
   }
@@ -1210,7 +1210,7 @@ textarea {
 
 .heading-sec__main--lt::after {
   content: '';
-  background: #fff !important;
+  background: #fff ;
 }
 
 .heading-sec__main::after {
