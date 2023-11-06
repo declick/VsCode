@@ -1944,6 +1944,7 @@ padding: 1rem 1rem;
 .skills-projects {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 40px;
 }
 
 .skills__skill-projects {
