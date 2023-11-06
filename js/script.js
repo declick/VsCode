@@ -63,6 +63,11 @@ document.addEventListener('DOMContentLoaded',  () => {
   });
 });
 
+
+
+/* FILE TOGGLE */
+
+
 /* NAVIGATION */
 document.addEventListener('DOMContentLoaded', () => {
   // Fonction de défilement fluide

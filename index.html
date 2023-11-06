@@ -456,9 +456,10 @@
             ...
         </div>
         <div class="menu-drop">
+
             <div class="box-click">
                 <i class="fa fa-chevron-down"></i> <span>OPEN EDITORS</span>
-                <div class="show-pre">
+                <div class="show-pre menu-content" id="openEditorsMenu">
                     <ul>
                         <li class="active"><i class="fab fa-react"></i> <span>home.jsx</span> </li>
                         <li><i class="fab fa-html5"></i> <span>about.html</span> </li>
@@ -472,7 +473,7 @@
         <div class="menu-drop">
             <div class="box-click">
                 <i class="fa fa-chevron-down"></i> <span>VSCODE</span>
-                <div class="show-pre">
+                <div class="show-pre menu-content">
                     <ul>
                         <li><i class="fab fa-git-alt git"></i><span>.gitignore</span></li>
                         <li><i class="fa fa-chevron-right"></i><i class="fa fa-folder"></i><span>assets</span></li>
@@ -505,7 +506,7 @@
         <div class="tabs-skillset tabs"><span class="html-tag"><i class="fab fa-css3"></i></span>contact.css</div>
 
         <div class="app-icons">
-            <ul >
+            <ul>
                 <li>
                     <i class="fa fa-code-compare"></i>
                 </li>
@@ -550,27 +551,26 @@
                             I am always eager to learn and explore new technologies, frameworks and programming
                             languages.
                         </p>
-                    </div>
-                    <div class="home-hero__cta">
-                        <a href="mailto:et.mirje@hotmail.com" class="btn btn--bg">Let's work</a>
-                    </div>
-
-                    <div class="home-hero__socials">
-                        <div class="home-hero__social">
-                            <a href="#" class="home-hero__social-icon-link">
-                                <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
-                            </a>
+                        <div class="home-hero__cta">
+                            <a href="mailto:et.mirje@hotmail.com" class="btn btn--bg">Let's work</a>
                         </div>
-                        <div class="home-hero__social">
-                            <a href="#" class="home-hero__social-icon-link">
-                                <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
-                            </a>
+                        <div class="home-hero__socials">
+                            <div class="home-hero__social">
+                                <a href="#" class="home-hero__social-icon-link">
+                                    <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+                                </a>
+                            </div>
+                            <div class="home-hero__social">
+                                <a href="#" class="home-hero__social-icon-link">
+                                    <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="home-hero__mouse-scroll-cont">
-                    <div class="mouse"></div>
+                    
+                    <div class="home-hero__mouse-scroll-cont">
+                        <div class="mouse"></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -615,16 +615,19 @@
                             <div class="skills">
                                 <div class="skills__skill">HTML</div>
                                 <div class="skills__skill">CSS</div>
+                                <div class="skills__skill">Bootstrap</div>
                                 <div class="skills__skill">JavaScript</div>
                                 <div class="skills__skill">React</div>
-                                <div class="skills__skill">SASS</div>
+                                <div class="skills__skill">Node</div>
+                                <div class="skills__skill">MySQL</div>
+                            </div>
+                            <h3 class="about__content-title">My tools</h3>
+                            <div class="skills">
                                 <div class="skills__skill">GIT</div>
-                                <div class="skills__skill">Shopify</div>
-                                <div class="skills__skill">Wordpress</div>
-                                <div class="skills__skill">Google ADS</div>
-                                <div class="skills__skill">Facebook Ads</div>
-                                <div class="skills__skill">Android</div>
-                                <div class="skills__skill">IOS</div>
+                                <div class="skills__skill">Github</div>
+                                <div class="skills__skill">Figma</div>
+                                <div class="skills__skill">VScode</div>
+                                <div class="skills__skill">Linux</div>
                             </div>
                         </div>
                     </div>
@@ -654,6 +657,15 @@
                                     facilis tempora, explicabo quae quod deserunt eius sapiente
                                     praesentium.
                                 </p>
+                                <div class="skills-projects">
+                                    <div class="skills__skill-projects">HTML</div>
+                                    <div class="skills__skill-projects">CSS</div>
+                                    <div class="skills__skill-projects">Bootstrap</div>
+                                    <div class="skills__skill-projects">JavaScript</div>
+                                    <div class="skills__skill-projects">React</div>
+                                    <div class="skills__skill-projects">Node</div>
+                                    <div class="skills__skill-projects">MySQL</div>
+                                </div>
                                 <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr"
                                     target="_blank">Case
                                     Study</a>
@@ -771,7 +783,7 @@
                 <li class="console-menu-link">PROBLEMS</li>
                 <li class="console-menu-link">OUTPUT</li>
                 <li class="console-menu-link">DEBUG CONSOLE</li>
-                <li class="console-menu-link"><u class="white">TERMINAL</u></li>
+                <li class="console-menu-link"><u>TERMINAL</u></li>
                 <li class="console-menu-link">PORTS</li>
                 <li class="console-menu-link">
                     <p id="language" class="white"><span id="french">FR </span>&nbsp;<span id="english"> EN</span></p>
