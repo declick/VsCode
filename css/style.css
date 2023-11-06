@@ -204,6 +204,12 @@ display: none;
     width: 51px;
     height: calc(100% - 60px);
 }
+@media only screen and (max-width: 480px) {
+  .side-header {
+    height: calc(100% - 24px);
+    top:0;
+  }
+}
 
 
 /* Styles pour l'infobulle */
@@ -1114,16 +1120,7 @@ display: none;
   }
 }
 
-/* Styles for different sections */
-.portfolio-home,
-.portfolio-about,
-.portfolio-projects,
-.portfolio-contact {
 
-  margin: 10px;
-  padding: 15px;
-
-}
 .portfolio-home {
  
 }
@@ -1168,7 +1165,7 @@ textarea {
 
 .heading-primary {
   margin-bottom: 0.75rem;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1;
   font-weight: 600;
   text-align: center;
