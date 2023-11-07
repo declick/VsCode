@@ -1422,6 +1422,32 @@ display: none;
   display: block;
   font-family: "Courier New", Courier, monospace;
 }
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+#text {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cursor {
+  position: relative;
+  transform: translateY(-50%);
+  animation: blink-animation 1s infinite;
+}
+
+@keyframes blink-animation {
+  0%, 100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+}
 
 .nav-card{
   height: 30px;

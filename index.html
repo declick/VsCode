@@ -589,13 +589,13 @@
                             <div class="content-card">
                                 <pre class="jsx">
                                 <code class="language-jsx">
-<span class="home3">import</span> { <span class="home4">FC</span> } <span class="home3">from</span> <span class="home1">"react";</span>
+<span class="home3">import</span> { <span class="home4">FC</span> } <span class="home3">from</span> <span class="home1">"react"</span>
 
 <span class="home3">Const</span> <span class="home2">currentProps</span> = {
     job:
         | <span class="home1">"display my skills"</span>
         | <span class="home1">"find opportunities"</span>
-        | <span class="home1">"find a fulltime job";</span>
+        | <span class="home1">"find a fulltime job"</span>
 };
 <span class="home3">export const</span> Welcome: <span class="home4">FC</span>&lt;currentProps> = ({ job }) => {
     <span class="home3">return</span> (
@@ -603,11 +603,12 @@
         <span class="home2">&lt;p&gt;</span>
           Looking for a Full-Stack developer role
           Location : Nantes/Paris
-        <span class="home2"> &lt;p&gt;</span>
-      <span class="home2">&lt;/&gt;</span>
+        <span class="home2"> &lt;p&gt</span>
+      <span class="home2">&lt;/&gt</span>
     );
 };
-<span class="home3">export</span> default Welcome;
+<span class="home3">export</span> default Welcome<div class="input-container"><span class="cursor" id="blinking-cursor">|</span></div>
+
                                 </code>
                             </pre>
                             </div>
