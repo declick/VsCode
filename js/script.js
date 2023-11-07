@@ -102,9 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
-
-
 /* POPUP PHOTO */
 
 document.addEventListener('DOMContentLoaded', () => {
