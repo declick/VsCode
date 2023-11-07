@@ -10,9 +10,9 @@ const data = {
  
     "help" : `<li><code>about me</code> : Display information about me</li>
     <li><code>experiences</code> : Displays the list of my experiences</li>
-    <li><code>get cv</code> : Download my CV</li>
-    <li><code>get linkedin</code> : Link to my Linkedin</li>
-    <li><code>get github</code> : Link to my Github</li>
+    <li><code>cv</code> : Download my CV</li>
+    <li><code>linkedin</code> : Link to my Linkedin</li>
+    <li><code>github</code> : Link to my Github</li>
     <li><code>passions</code> : Displays the list of my hobbies</li>
     <li><code>projects</code> : Displays the list of my personal projects</li>
     <li><code>clear</code> : Clean the terminal</li>
@@ -193,9 +193,9 @@ const data = {
     
     "help" : `<li><code>a propos</code> : Affiche les informations me concernant</li>
     <li><code>experiences</code> : Affiche la liste de mes expériences</li>
-    <li><code>get cv</code> : Télécharge mon CV</li>
-    <li><code>get linkedin</code> : Lien vers mon Linkedin</li>
-    <li><code>get github</code> : Lien vers mon Github</li>
+    <li><code>cv</code> : Télécharge mon CV</li>
+    <li><code>linkedin</code> : Lien vers mon Linkedin</li>
+    <li><code>github</code> : Lien vers mon Github</li>
     <li><code>passions</code> : Affiche la liste de mes passes temps</li>
     <li><code>projets</code> : Affiche la liste de mes projets personnels</li>
     <li><code>clear</code> : Nettoie le terminal</li>
@@ -330,9 +330,9 @@ const data = {
   "ls1" : `
     <div>a propos</div>
     <div>experiences</div>
-    <div>get cv</div>
-    <div>get linkedin</div>
-    <div>get github</div>
+    <div>cv</div>
+    <div>linkedin</div>
+    <div>github</div>
     <div>help</div>
     <div>passions</div>
     <div>projets</div>
@@ -348,9 +348,9 @@ const data = {
   "ls2" : `
     <div>a propos</div>
     <div>experiences</div>
-    <div>get cv</div>
-    <div>get linkedin</div>
-    <div>get github</div>
+    <div>cv</div>
+    <div>linkedin</div>
+    <div>github</div>
     <div>passions</div>
     <div>projets</div>
     <div>clear</div>
