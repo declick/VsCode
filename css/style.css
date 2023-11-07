@@ -1104,7 +1104,7 @@ display: none;
 @media only screen and (max-width: 920px) {
   .portfolio {
     width: calc(100% - 50px);
-    height: calc(100vh - 30px);
+    height: calc(100vh - 128px);
     position: fixed;
     bottom: 29px;
     left: 51px;
