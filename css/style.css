@@ -1112,13 +1112,6 @@ display: none;
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .portfolio {
-    width: calc(100% - 50px);
-    left: 51px;
-    height: calc(100vh - 29px);
-  }
-}
 
 
 a {
@@ -1361,7 +1354,6 @@ textarea {
 @media only screen and (max-width: 37.5em) {
   .home-hero__content {
     margin: auto;
-    position: static;
     transform: translate(0, 0);
   }
 }
