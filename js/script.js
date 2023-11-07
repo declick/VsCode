@@ -126,6 +126,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+/* EFFET WOW*/
+
+
 /* DARK MODE */      
 
 

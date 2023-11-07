@@ -1360,6 +1360,38 @@ bottom: -40%;
   width: 100%;
 }
 
+/* EFFET WOW */
+
+
+
+#featureBackground {
+  width: 100%;
+  position: absolute;
+}
+
+.vbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.hbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+  height: 250px;
+}
+
+.dot {
+  position: absolute;
+}
+
 .home-hero__content {
   display: flex;
   justify-content: center;
