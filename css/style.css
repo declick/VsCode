@@ -1103,14 +1103,15 @@ display: none;
 
 @media only screen and (max-width: 920px) {
   .portfolio {
-    width: calc(100% - 50px);
-    height: calc(100vh - 128px);
+    width: calc(100% - 49px);
+    height: calc(100vh - 29px);
     position: fixed;
     bottom: 29px;
     left: 51px;
     overflow: auto;
   }
 }
+
 
 
 a {
@@ -1298,23 +1299,18 @@ textarea {
   justify-content: center;
 }
 
-@media only screen and (max-width: 56.25em) {
-  .home-hero__socials {
-    display: none;
-  }
-}
-
 .home-hero__mouse-scroll-cont {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 37.5em) {
   .home-hero__mouse-scroll-cont {
     display: none;
   }
 }
+
 
 .home-hero__social {
   width: 5rem;
@@ -1344,9 +1340,10 @@ textarea {
   justify-content: center;
   text-align: center;
   gap: 100px;
-  margin: 3rem;
   align-items: center;
   padding-top: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 
