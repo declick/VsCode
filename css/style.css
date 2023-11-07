@@ -763,6 +763,7 @@ display: none;
 .portfolio.menu-hidden {
   left: 51px;
   width: calc(100% - 51px);
+  height: calc(100% - 122px);
 }
 .tabs-container.menu-hidden {
   left: 51px;
@@ -1148,7 +1149,11 @@ textarea {
   text-align: center;
   width: 70%;
 }
-
+@media only screen and (max-width: 480px) {
+  .heading-primary {
+    font-size: 2rem;
+  }
+}
 .heading-sec__mb-bg {
   margin-bottom: 11rem;
 }
