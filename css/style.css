@@ -1593,10 +1593,10 @@ display: none;
 }
 
 .projects__row-content-desc {
-  color: grey;
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 3rem;
+  color: #ffffff;
 }
 
 
@@ -1741,6 +1741,7 @@ display: none;
 
 .project-details__content-title {
   margin-bottom: 3rem;
+  color:white;
 }
 
 .project-details__showcase-img-cont {
@@ -1764,7 +1765,7 @@ display: none;
 
 .project-details__desc-para {
   line-height: 1.7;
-  color: grey;
+  color: rgb(255, 255, 255);
   margin-bottom: 2rem;
 }
 
@@ -2093,10 +2094,10 @@ color:rgb(129, 245, 255);
   color:rgb(129, 245, 255);
 }
 .skills__skill-home3{
- color: rgb(255, 119, 196);
+  color: rgb(250, 209, 232);
   }
   .home3{
-    color: rgb(255, 119, 196);
+    color: rgb(250, 209, 232);
   }
   .skills__skill-home4{
     color: rgb(255, 188, 101);
