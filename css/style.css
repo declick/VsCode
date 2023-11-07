@@ -1305,9 +1305,7 @@ textarea {
   display: flex;
   justify-content: center;
 }
-.home-hero__info{
-  width: 40%;
-}
+
 @media only screen and (max-width: 56.25em) {
   .home-hero__socials {
     display: none;
@@ -1316,7 +1314,6 @@ textarea {
 
 .home-hero__mouse-scroll-cont {
   position: absolute;
-  bottom: 3%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1356,6 +1353,8 @@ textarea {
   text-align: center;
   gap: 100px;
   margin: 3rem;
+  align-items: center;
+  padding-top: 1rem;
 }
 
 
