@@ -1169,7 +1169,6 @@ textarea {
   font-weight: 600;
   text-align: center;
   width: 100%;
-  padding-top: 55px;
 }
 
 
@@ -1225,11 +1224,6 @@ textarea {
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 37.5em) {
-  .heading-sec__main::after {
-    top: calc(100% + 1.2rem);
-  }
-}
 
 .heading-sec__sub {
   display: block;
@@ -1345,7 +1339,7 @@ textarea {
   transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1200px) {
   .home-hero__mouse-scroll-cont {
     display: none;
   }
@@ -1412,6 +1406,20 @@ display: none;
   overflow: hidden;
   box-shadow: 30px 20px 5px rgb(32 42 59 / 31%);
   font-family: "Fira Code", monospace;
+}
+
+.content-card{
+  margin-left: 6px;
+  margin-top: -26px;
+}
+.jsx {
+  max-width: 0px;
+}
+
+.language-jsx {
+  color:#fff;
+  display: block;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .nav-card{
