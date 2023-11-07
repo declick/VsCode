@@ -242,6 +242,12 @@ function logKey(e){
       if(result[0] === "f"){
         input.value = "formations";
       }
+      if(result[0] === "s"){
+        input.value = "skills";
+      }
+      if(result[0] === "ed"){
+        input.value = "education";
+      }
       if(result.includes("c")){
         input.value = "cv";
       }
@@ -304,6 +310,10 @@ function logKey(e){
           clear();
         } else if (result === "experiences"){
           experiences();
+        } else if (result === "skills"){
+          skills();
+        } else if (result === "education"){
+          education();
         } else if( result === "cv"){
           getCv();
         } else if (result === "linkedin"){

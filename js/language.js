@@ -10,6 +10,8 @@ const data = {
  
     "help" : `<li><code>about me</code> : Display information about me</li>
     <li><code>experiences</code> : Displays the list of my experiences</li>
+    <li><code>skills</code> : Lists all the technologies I have worked with</li>
+    <li><code>education</code> : Shows my education history</li>
     <li><code>cv</code> : Download my CV</li>
     <li><code>linkedin</code> : Link to my Linkedin</li>
     <li><code>github</code> : Link to my Github</li>
@@ -59,6 +61,22 @@ const data = {
     <td>Service manager</td>
     <td>Opening or closing the restaurant. Post-Rush management: cash counting, inventory management, HACCP.</td>
   </tr>`,
+
+  "skills" : `{<br>
+    &nbsp;&nbsp;<span class='sk'>my training, I had to try out different development languages that I master today.<br><br>
+    &nbsp;&nbsp;&nbsp;I can easily write code in the following languages:<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>HTML<br>&nbsp;&nbsp;&nbsp;CSS<br>&nbsp;&nbsp;&nbsp;JavaScript<br>&nbsp;&nbsp;&nbsp;Node.JS</span><br><br>
+    &nbsp;&nbsp;&nbsp;I have experience with the following frameworks:<br><span class='bold'><br>&nbsp;&nbsp;&nbsp;React.JS<br>&nbsp;&nbsp;&nbsp;ExpressJS<br>&nbsp;&nbsp;&nbsp;Bootstrap<br>&nbsp;&nbsp;&nbsp;Tailwind</span><br><br>
+    &nbsp;&nbsp;&nbsp;As well as certain database management systems:<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>MySQL<br>&nbsp;&nbsp;&nbsp;FireBase</span><br><br>
+    &nbsp;&nbsp;&nbsp;Tools I often use:<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>Git<br>&nbsp;&nbsp;&nbsp;GitHub<br>&nbsp;&nbsp;&nbsp;Visual Studio Code<br>&nbsp;&nbsp;&nbsp;Figma</span><br><br>
+    &nbsp;&nbsp;&nbsp;I often work under the operating system <span class='bold'>Linux.</span></span><br>
+  }`,
+
+  "education" : `{<br>
+    &nbsp;&nbsp;&nbsp;I studied as a developer within the <span class='bold'><a class='alink' target='_blank' href='https://3wacademy.fr/'>3WAcademy</a>.</span><br><br>
+    &nbsp;&nbsp;&nbsp;Application developer training.<br>&nbsp;&nbsp;&nbsp;Année : 2023<br><br>
+    &nbsp;&nbsp;&nbsp;Full-stack developer training.<br>&nbsp;&nbsp;&nbsp;Année : 2022<br><br>
+    &nbsp;&nbsp;&nbsp;Junior full-stack developer diploma.<br>&nbsp;&nbsp;&nbsp;Année :2023<br>
+  }`,
 
   "cv" : `The resume upload will begin.`,
 
@@ -148,9 +166,11 @@ const data = {
   "ls1" : `
     <div>about me</div>
     <div>experiences</div>
-    <div>get CV</div>
-    <div>get linkedin</div>
-    <div>get github</div>
+    <div>skills</div>
+    <div>education</div>
+    <div>CV</div>
+    <div>linkedin</div>
+    <div>github</div>
     <div>passions</div>
     <div>projects</div>
     <div>clear</div>
@@ -166,9 +186,11 @@ const data = {
   "ls2" : `
     <div>about me</div>
     <div>experiences</div>
-    <div>get CV</div>
-    <div>get linkedin</div>
-    <div>get github</div>
+    <div>skills</div>
+    <div>education</div>
+    <div>CV</div>
+    <div>linkedin</div>
+    <div>github</div>
     <div>passions</div>
     <div>projects</div>
     <div>clear</div>
@@ -193,6 +215,8 @@ const data = {
     
     "help" : `<li><code>a propos</code> : Affiche les informations me concernant</li>
     <li><code>experiences</code> : Affiche la liste de mes expériences</li>
+    <li><code>skills</code> : Répertorie toutes les technologies avec lesquelles j'ai travaillé</li>
+    <li><code>education</code> : Affiche mon parcours scolaire</li>
     <li><code>cv</code> : Télécharge mon CV</li>
     <li><code>linkedin</code> : Lien vers mon Linkedin</li>
     <li><code>github</code> : Lien vers mon Github</li>
@@ -241,6 +265,22 @@ const data = {
     <td>Responsable de service</td>
     <td>Ouverture ou fermeture du restaurant. Gestion post-Rush : comptage des caisses, gestions des stocks, HACCP.</td>
   </tr>`,
+
+  "skills" : `{<br>
+    &nbsp;&nbsp;<span class='sk'>Au fil de ma formation, j'ai dû m'essayer à différents langages de développement que je maîtrise aujourd'hui.<br><br>
+    &nbsp;&nbsp;&nbsp;Je peux facilement écrire du code dans les langages suivants :<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>HTML<br>&nbsp;&nbsp;&nbsp;CSS<br>&nbsp;&nbsp;&nbsp;JavaScript<br>&nbsp;&nbsp;&nbsp;Node.JS</span><br><br>
+    &nbsp;&nbsp;&nbsp;J'ai de l'expérience avec les frameworks suivants :<br><span class='bold'><br>&nbsp;&nbsp;&nbsp;React.JS<br>&nbsp;&nbsp;&nbsp;ExpressJS<br>&nbsp;&nbsp;&nbsp;Bootstrap<br>&nbsp;&nbsp;&nbsp;Tailwind</span><br><br>
+    &nbsp;&nbsp;&nbsp;Ainsi qu'à certains systèmes de gestion de bases de données :<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>MySQL<br>&nbsp;&nbsp;&nbsp;FireBase</span><br><br>
+    &nbsp;&nbsp;&nbsp;Les outils que j'ulise souvent :<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>Git<br>&nbsp;&nbsp;&nbsp;GitHub<br>&nbsp;&nbsp;&nbsp;Visual Studio Code<br>&nbsp;&nbsp;&nbsp;Figma</span><br><br>
+    &nbsp;&nbsp;&nbsp;Je travaille souvent sous le système d'exploitation <span class='bold'>Linux.</span></span><br>
+  }`,
+
+  "education" : `{<br>
+    &nbsp;&nbsp;&nbsp;J'ai fait mes études de developpeur au sein de la <span class='bold'><a class='alink' target='_blank' href='https://3wacademy.fr/'>3WAcademy</a>.</span><br><br>
+    &nbsp;&nbsp;&nbsp;Formation développeur d'applications.<br>&nbsp;&nbsp;&nbsp;Année : 2023<br><br>
+    &nbsp;&nbsp;&nbsp;Formation développeur full-stack.<br>&nbsp;&nbsp;&nbsp;Année : 2022<br><br>
+    &nbsp;&nbsp;&nbsp;Diplôme développeur full-stack Junior.<br>&nbsp;&nbsp;&nbsp;Année :2023<br>
+  }`,
 
   "cv" : `Le téléchargement du CV va commencer.`,
 
@@ -330,6 +370,8 @@ const data = {
   "ls1" : `
     <div>a propos</div>
     <div>experiences</div>
+    <div>skills</div>
+    <div>education</div>
     <div>cv</div>
     <div>linkedin</div>
     <div>github</div>
@@ -348,6 +390,8 @@ const data = {
   "ls2" : `
     <div>a propos</div>
     <div>experiences</div>
+    <div>skills</div>
+    <div>education</div>
     <div>cv</div>
     <div>linkedin</div>
     <div>github</div>
@@ -387,6 +431,12 @@ function setLanguage(){
   });
   document.querySelectorAll(".experienceresult").forEach(element =>{
     element.innerHTML = data[language].experience
+  });
+  document.querySelectorAll(".skillsresult").forEach(element => {
+    element.innerHTML = data[language].skills
+  });
+  document.querySelectorAll(".educationresult").forEach(element => {
+    element.innerHTML = data[language].education
   });
   document.querySelectorAll(".cvresult").forEach(element =>{
     element.innerHTML = data[language].cv

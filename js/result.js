@@ -5,6 +5,18 @@ const aboutMe = () =>{
         </p>`);
 };
 
+const skills = () =>{
+  terminal.insertAdjacentHTML("beforeend", 
+        `<p class="result skillsresult">
+          ${data[language].skills}
+        </p>`);
+};
+const education = () =>{
+  terminal.insertAdjacentHTML("beforeend", 
+        `<p class="result educationresult">
+          ${data[language].education}
+        </p>`);
+};
 
 const clear = () =>{
   terminalBody.innerHTML = "";
