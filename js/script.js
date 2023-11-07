@@ -55,11 +55,12 @@ document.addEventListener('DOMContentLoaded',  () => {
   const toggleMenuButton = document.getElementById('toggleConsole');
   const menuOption = document.querySelector('.console');
   const portfolio = document.querySelector('.portfolio');
-
+  const mouse = document.querySelector('.home-hero__mouse-scroll-cont');
 
   toggleMenuButton.addEventListener('click', () => {
     menuOption.classList.toggle('hidden');
     portfolio.classList.toggle('console-hidden');
+    mouse.classList.toggle('console-hidden');
   });
 });
 
