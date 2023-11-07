@@ -22,13 +22,13 @@ const data = {
     <li><em>You can find the old commands with the up and down arrows</em></li>`,
 
     "aboutme" : `{<br>
-      &nbsp;&nbsp;&nbsp;"id" : "Quentin MINZIERE",<br>
-      &nbsp;&nbsp;&nbsp;"formation" : "600h+ in 6 months - Full-Stack Developer - Javascript",<br>
-      &nbsp;&nbsp;&nbsp;"language" : "HTML, CSS, JS, Node, Git",<br>
-      &nbsp;&nbsp;&nbsp;"framework" : "React, Express",<br>
-      &nbsp;&nbsp;&nbsp;"tools" : "GitHub, Netlify, Figma",<br>
-      &nbsp;&nbsp;&nbsp;"softSkills": "Agile Method, Teamwork",<br>
-      &nbsp;&nbsp;&nbsp;"city" : "Nantes/Paris, France"<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"id"</span> : "Quentin MINZIERE",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"formation"</span> : "600h+ in 6 months - Full-Stack Developer - Javascript",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"language"</span> : "HTML, CSS, JS, Node, Git",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"framework"</span> : "React, Express",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"tools"</span> : "GitHub, Netlify, Figma",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"softSkills"</span> : "Agile Method, Teamwork",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"city"</span> : "Nantes/Paris, France"<br>
     }`,
 
     "experience" : `<tr>
@@ -63,19 +63,23 @@ const data = {
   </tr>`,
 
   "skills" : `{<br>
-    &nbsp;&nbsp;<span class='sk'>my training, I had to try out different development languages that I master today.<br><br>
-    &nbsp;&nbsp;&nbsp;I can easily write code in the following languages:<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>HTML<br>&nbsp;&nbsp;&nbsp;CSS<br>&nbsp;&nbsp;&nbsp;JavaScript<br>&nbsp;&nbsp;&nbsp;Node.JS</span><br><br>
-    &nbsp;&nbsp;&nbsp;I have experience with the following frameworks:<br><span class='bold'><br>&nbsp;&nbsp;&nbsp;React.JS<br>&nbsp;&nbsp;&nbsp;ExpressJS<br>&nbsp;&nbsp;&nbsp;Bootstrap<br>&nbsp;&nbsp;&nbsp;Tailwind</span><br><br>
-    &nbsp;&nbsp;&nbsp;As well as certain database management systems:<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>MySQL<br>&nbsp;&nbsp;&nbsp;FireBase</span><br><br>
-    &nbsp;&nbsp;&nbsp;Tools I often use:<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>Git<br>&nbsp;&nbsp;&nbsp;GitHub<br>&nbsp;&nbsp;&nbsp;Visual Studio Code<br>&nbsp;&nbsp;&nbsp;Figma</span><br><br>
-    &nbsp;&nbsp;&nbsp;I often work under the operating system <span class='bold'>Linux.</span></span><br>
+    &nbsp;&nbsp;<span class='sk'><span class='home2'>my training, I had to try out different development languages that I master today.</span><br><br>
+    &nbsp;&nbsp;&nbsp;I can easily write code in the following languages:<br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>HTML<br>&nbsp;&nbsp;&nbsp;CSS<br>&nbsp;&nbsp;&nbsp;JavaScript<br>&nbsp;&nbsp;&nbsp;Node.JS</span></span><br><br>
+    &nbsp;&nbsp;&nbsp;I have experience with the following frameworks:<br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>React.JS<br>&nbsp;&nbsp;&nbsp;ExpressJS<br>&nbsp;&nbsp;&nbsp;Bootstrap<br>&nbsp;&nbsp;&nbsp;Tailwind</span></span><br><br>
+    &nbsp;&nbsp;&nbsp;As well as certain database management systems:<br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>MySQL<br>&nbsp;&nbsp;&nbsp;FireBase</span></span><br><br>
+    &nbsp;&nbsp;&nbsp;Tools I often use:<br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>Git<br>&nbsp;&nbsp;&nbsp;GitHub<br>&nbsp;&nbsp;&nbsp;Visual Studio Code<br>&nbsp;&nbsp;&nbsp;Figma</span></span><br><br>
+    &nbsp;&nbsp;&nbsp;I often work under the operating system  <span class='bold'>Linux.</span></span><br>
   }`,
 
   "education" : `{<br>
-    &nbsp;&nbsp;&nbsp;I studied as a developer within the <span class='bold'><a class='alink' target='_blank' href='https://3wacademy.fr/'>3WAcademy</a>.</span><br><br>
-    &nbsp;&nbsp;&nbsp;Application developer training.<br>&nbsp;&nbsp;&nbsp;Année : 2023<br><br>
-    &nbsp;&nbsp;&nbsp;Full-stack developer training.<br>&nbsp;&nbsp;&nbsp;Année : 2022<br><br>
-    &nbsp;&nbsp;&nbsp;Junior full-stack developer diploma.<br>&nbsp;&nbsp;&nbsp;Année :2023<br>
+    &nbsp;&nbsp;&nbsp;<span class='home2'>I studied as a developer within the <span class='bold'><a class='alink' target='_blank' href='https://3wacademy.fr/'>3WAcademy</a>.</span></span><br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'>Application developer training.</span><br>&nbsp;&nbsp;&nbsp;Année : <span class='home3'>2023</span><br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'>Full-stack developer training.</span><br>&nbsp;&nbsp;&nbsp;Année : <span class='home3'>2022<br></span><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'>Junior full-stack developer diploma.</span><br>&nbsp;&nbsp;&nbsp;Année <span class='home3'>:2023</span><br>
   }`,
 
   "cv" : `The resume upload will begin.`,
@@ -85,10 +89,10 @@ const data = {
   "redirectGithub" : `You will be redirected to Github.`,
 
   "hobby" : `{<br>
-    &nbsp;&nbsp;&nbsp;"Sport" : "Hockey"<br>
-    &nbsp;&nbsp;&nbsp;"Programmation" : "JS, Node"<br>
-    &nbsp;&nbsp;&nbsp;"Gaming" : "FPS"<br>
-    &nbsp;&nbsp;&nbsp;"Other" : "Design, blockchaine"<br>
+    &nbsp;&nbsp;&nbsp;<span class='home1'>"Sport"</span> : "Hockey"<br>
+    &nbsp;&nbsp;&nbsp;<span class='home1'>"Programmation"</span> : "JS, Node"<br>
+    &nbsp;&nbsp;&nbsp;<span class='home1'>"Gaming"</span> : "FPS"<br>
+    &nbsp;&nbsp;&nbsp;<span class='home1'>"Other"</span> : "Design, blockchaine"<br>
   }`,
 
   "project" : `<table class="result">
@@ -227,13 +231,13 @@ const data = {
     <li><em>Vous pouvez retrouver les anciennes commandes avec les flèches haut et bas</em></li>`,
 
     "aboutme" : `{<br>
-      &nbsp;&nbsp;&nbsp;"id" : "Quentin MINZIERE",<br>
-      &nbsp;&nbsp;&nbsp;"formation" : "600h+ en 6 mois - Développeur Full-Stack - Javascript",<br>
-      &nbsp;&nbsp;&nbsp;"language" : "HTML, CSS, JS, Node, Git",<br>
-      &nbsp;&nbsp;&nbsp;"framework" : "React, Express",<br>
-      &nbsp;&nbsp;&nbsp;"outils" : "GitHub, Netlify, Figma",<br>
-      &nbsp;&nbsp;&nbsp;"softSkills" : "Methode Agile, Teamwork",<br>
-      &nbsp;&nbsp;&nbsp;"city" : "Nantes/Paris, France"<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"id"</span> : "Quentin MINZIERE",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"formation"</span> : "600h+ en 6 mois - Développeur Full-Stack - Javascript",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"language"</span> : "HTML, CSS, JS, Node, Git",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"framework"</span> : "React, Express",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"outils"</span> : "GitHub, Netlify, Figma",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"softSkills"</span> : "Methode Agile, Teamwork",<br>
+      &nbsp;&nbsp;&nbsp;<span class='home1'>"city"</span> : "Nantes/Paris, France"<br>
     }`,
 
     "experience" : `<tr>
@@ -267,19 +271,23 @@ const data = {
   </tr>`,
 
   "skills" : `{<br>
-    &nbsp;&nbsp;<span class='sk'>Au fil de ma formation, j'ai dû m'essayer à différents langages de développement que je maîtrise aujourd'hui.<br><br>
-    &nbsp;&nbsp;&nbsp;Je peux facilement écrire du code dans les langages suivants :<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>HTML<br>&nbsp;&nbsp;&nbsp;CSS<br>&nbsp;&nbsp;&nbsp;JavaScript<br>&nbsp;&nbsp;&nbsp;Node.JS</span><br><br>
-    &nbsp;&nbsp;&nbsp;J'ai de l'expérience avec les frameworks suivants :<br><span class='bold'><br>&nbsp;&nbsp;&nbsp;React.JS<br>&nbsp;&nbsp;&nbsp;ExpressJS<br>&nbsp;&nbsp;&nbsp;Bootstrap<br>&nbsp;&nbsp;&nbsp;Tailwind</span><br><br>
-    &nbsp;&nbsp;&nbsp;Ainsi qu'à certains systèmes de gestion de bases de données :<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>MySQL<br>&nbsp;&nbsp;&nbsp;FireBase</span><br><br>
-    &nbsp;&nbsp;&nbsp;Les outils que j'ulise souvent :<br><br>&nbsp;&nbsp;&nbsp;<span class='bold'>Git<br>&nbsp;&nbsp;&nbsp;GitHub<br>&nbsp;&nbsp;&nbsp;Visual Studio Code<br>&nbsp;&nbsp;&nbsp;Figma</span><br><br>
+    &nbsp;&nbsp;<span class='sk'><span class='home2'>Au fil de ma formation, j'ai dû m'essayer à différents langages de développement que je maîtrise aujourd'hui.</span><br><br>
+    &nbsp;&nbsp;&nbsp;Je peux facilement écrire du code dans les langages suivants :<br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>HTML<br>&nbsp;&nbsp;&nbsp;CSS<br>&nbsp;&nbsp;&nbsp;JavaScript<br>&nbsp;&nbsp;&nbsp;Node.JS</span></span><br><br>
+    &nbsp;&nbsp;&nbsp;J'ai de l'expérience avec les frameworks suivants :<br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>React.JS<br>&nbsp;&nbsp;&nbsp;ExpressJS<br>&nbsp;&nbsp;&nbsp;Bootstrap<br>&nbsp;&nbsp;&nbsp;Tailwind</span></span><br><br>
+    &nbsp;&nbsp;&nbsp;Ainsi qu'à certains systèmes de gestion de bases de données :<br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>MySQL<br>&nbsp;&nbsp;&nbsp;FireBase</span></span><br><br>
+    &nbsp;&nbsp;&nbsp;Les outils que j'ulise souvent :<br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>Git<br>&nbsp;&nbsp;&nbsp;GitHub<br>&nbsp;&nbsp;&nbsp;Visual Studio Code<br>&nbsp;&nbsp;&nbsp;Figma</span></span><br><br>
     &nbsp;&nbsp;&nbsp;Je travaille souvent sous le système d'exploitation <span class='bold'>Linux.</span></span><br>
   }`,
 
   "education" : `{<br>
-    &nbsp;&nbsp;&nbsp;J'ai fait mes études de developpeur au sein de la <span class='bold'><a class='alink' target='_blank' href='https://3wacademy.fr/'>3WAcademy</a>.</span><br><br>
-    &nbsp;&nbsp;&nbsp;Formation développeur d'applications.<br>&nbsp;&nbsp;&nbsp;Année : 2023<br><br>
-    &nbsp;&nbsp;&nbsp;Formation développeur full-stack.<br>&nbsp;&nbsp;&nbsp;Année : 2022<br><br>
-    &nbsp;&nbsp;&nbsp;Diplôme développeur full-stack Junior.<br>&nbsp;&nbsp;&nbsp;Année :2023<br>
+    &nbsp;&nbsp;&nbsp;<span class='home2'>J'ai fait mes études de developpeur au sein de la <span class='bold'><a class='alink' target='_blank' href='https://3wacademy.fr/'>3WAcademy</a>.</span></span><br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'>Formation développeur d'applications.</span><br>&nbsp;&nbsp;&nbsp;Année : <span class='home3'>2023</span><br><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'>Formation développeur full-stack.</span><br>&nbsp;&nbsp;&nbsp;Année : <span class='home3'>2022<br></span><br>
+    &nbsp;&nbsp;&nbsp;<span class='home4'>Diplôme développeur full-stack Junior.</span><br>&nbsp;&nbsp;&nbsp;Année <span class='home3'>:2023</span><br>
   }`,
 
   "cv" : `Le téléchargement du CV va commencer.`,
@@ -289,10 +297,10 @@ const data = {
   "redirectGithub" : `Vous allez être redirigé vers Github.`,
 
   "hobby" : `{<br>
-    &nbsp;&nbsp;&nbsp;"Sport" : "Hockey"<br>
-    &nbsp;&nbsp;&nbsp;"Programmation" : "JS, Node"<br>
-    &nbsp;&nbsp;&nbsp;"Gaming" : "FPS"<br>
-    &nbsp;&nbsp;&nbsp;"Autre" : "Design, blockchaine"<br>
+    &nbsp;&nbsp;&nbsp;<span class='home1'>"Sport"</span> : "Hockey"<br>
+    &nbsp;&nbsp;&nbsp;<span class='home1'>"Programmation"</span> : "JS, Node"<br>
+    &nbsp;&nbsp;&nbsp;<span class='home1'>"Gaming"</span> : "FPS"<br>
+    &nbsp;&nbsp;&nbsp;<span class='home1'>"Autre"</span> : "Design, blockchaine"<br>
   }`,
 
   "project" : `<table class="result">
