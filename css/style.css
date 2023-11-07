@@ -1380,6 +1380,7 @@ textarea {
 
 .home-hero__card{
   border-radius: 8px;
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1530,9 +1531,10 @@ display: none;
   margin-bottom: 4rem;
 }
 
+
 .projects__row {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
   margin-bottom: 11rem;
 }
