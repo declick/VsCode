@@ -1154,7 +1154,6 @@ textarea {
   font-weight: 600;
   text-align: center;
   width: 100%;
-  margin-top: 6rem;
 }
 
 
@@ -1292,13 +1291,9 @@ textarea {
   color: #fff;
   background-position: center;
   position: relative;
-  height: 92%;
 }
 
-@media only screen and (max-width: 920px) {
-  .home-hero {
-  }
-  }
+
 @media only screen and (max-width: 37.5em) {
   .home-hero {
     height: unset;
@@ -1310,7 +1305,9 @@ textarea {
   display: flex;
   justify-content: center;
 }
-
+.home-hero__info{
+  width: 40%;
+}
 @media only screen and (max-width: 56.25em) {
   .home-hero__socials {
     display: none;
