@@ -1146,10 +1146,8 @@ textarea {
   line-height: 1;
   font-weight: 600;
   text-align: center;
-  width: 60%;
+  width: 70%;
 }
-
-
 
 .heading-sec__mb-bg {
   margin-bottom: 11rem;
@@ -1310,7 +1308,12 @@ textarea {
     display: none;
   }
 }
-
+.home-hero__info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 .home-hero__social {
   width: 5rem;
@@ -2008,7 +2011,7 @@ display: none;
 }
 
 .skills__skill {
-padding: 1rem 1rem;
+padding: 0.5rem 0.5rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
     background: rgba(153, 153, 153, 0.2);
