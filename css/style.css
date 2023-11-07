@@ -1318,6 +1318,7 @@ textarea {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  bottom: -20%;
 }
 .home-hero__mouse-scroll-cont.console-hidden{
 bottom: -40%;
