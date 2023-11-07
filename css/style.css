@@ -1112,7 +1112,13 @@ display: none;
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .portfolio {
 
+    height: calc(100vh - 30px);
+
+  }
+}
 
 a {
   text-decoration: none;
