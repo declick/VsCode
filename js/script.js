@@ -245,17 +245,14 @@ function logKey(e){
       if(result[0] === "f"){
         input.value = "formations";
       }
-      if(result[0] === "g"){
-        input.value = "get ";
+      if(result.includes("c")){
+        input.value = "cv";
       }
-      if(result.includes("get c")){
-        input.value = "get cv";
+      if(result.includes("l")){
+        input.value = "linkedin";
       }
-      if(result.includes("get l")){
-        input.value = "get linkedin";
-      }
-      if(result.includes("get g")){
-        input.value = "get github";
+      if(result.includes("g")){
+        input.value = "github";
       }
       if(result[0] === "h"){
         input.value = "help";
@@ -310,11 +307,11 @@ function logKey(e){
           clear();
         } else if (result === "experiences"){
           experiences();
-        } else if( result === "get cv"){
+        } else if( result === "cv"){
           getCv();
-        } else if (result === "get linkedin"){
+        } else if (result === "linkedin"){
           getLinkedin();
-        } else if (result === "get github"){
+        } else if (result === "github"){
           getGithub();
         } else if (result === "passions"){
           hobby();
