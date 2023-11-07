@@ -1121,20 +1121,6 @@ display: none;
 }
 
 
-.portfolio-home {
-}
-
-.portfolio-about {
-  
-}
-
-.portfolio-projects {
- 
-}
-
-.portfolio-contact {
- 
-}
 
 a {
   text-decoration: none;
@@ -1384,9 +1370,6 @@ textarea {
     position: static;
     transform: translate(0, 0);
   }
-}
-
-.home-hero__info {
 }
 
 .home-hero__card{
