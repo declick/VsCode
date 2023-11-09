@@ -1154,7 +1154,6 @@ button {
 }
 .bttn-home{
   width: 65%;
-  gap: 10px;
 }
 .bttn-support{
   display: inline-flex;
@@ -1196,9 +1195,9 @@ textarea {
   margin-bottom: 1.75rem;
   font-size: 3rem;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
-  width: 70%;
+  width: 64%;
 }
 @media only screen and (max-width: 480px) {
   .heading-primary {
@@ -1410,10 +1409,10 @@ animation: shadowAnimation 3s infinite linear;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -13%;
+  bottom: -4%;
 }
 .home-hero__mouse-scroll-cont.console-hidden{
-bottom: -50%;
+bottom: -45%;
 }
 
 
