@@ -440,6 +440,19 @@ hr {
     color: #ccc;
 }
 
+.fa-linkedin-in{
+  font-size: 2.5rem;
+}
+.fa-github{
+  font-size: 2.5rem;
+}
+.fa-linkedin-in:hover{
+  opacity: 0.5;
+
+}
+.fa-github:hover{
+  opacity: 0.5; 
+}
 .fa-star{
  color: #ffd500;
 }
@@ -868,53 +881,6 @@ display: none;
     background: #555; 
   }
   
-  @media only screen and (max-width: 680px) {
-    .main {
-  
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      height: calc(80vh + 10px);
-      width: 95vw;
-      border-radius: 5px;
-      transition: 0.3s ease;
-      
-      box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
-        rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
-        rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-     
-    }
-  
-    pre{
-      transform: scale(0.5) translateX(-150px);
-    }
-  
-    .terminal{
-      height: calc(80vh - 40px)!important;
-    }
-  
-    table{
-      font-size: 10px!important;
-    }
-    .result{
-      margin: 0!important;
-    }
-    .extendmain{
-      height: calc(50vh + 10px)!important;
-    }
-    
-    .extendcontent{
-      height: calc(50vh - 40px) !important;
-    }
-  
-    .ls{
-      display: grid;
-      grid-template-columns:50% 50%!important;
-      grid-gap: 10px 0;
-    }
-  
-  }
   
   .linealign{
     margin-left: -50px;
@@ -1444,11 +1410,18 @@ animation: shadowAnimation 3s infinite linear;
     min-height: unset;
   }
 }
-
 .home-hero__socials {
-  display: flex;
-  justify-content: center;
+position: absolute;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+padding: 0.5rem;
 }
+@media only screen and (max-width: 720px) {
+.home-hero__socials {
+display: none;
+}}
 
 .home-hero__mouse-scroll-cont {
   position: absolute;
@@ -1459,8 +1432,12 @@ animation: shadowAnimation 3s infinite linear;
 .home-hero__mouse-scroll-cont.console-hidden{
 bottom: -45%;
 }
+@media only screen and (max-width: 1200px) {
+.home-hero__mouse-scroll-cont.console-hidden{
 
-
+  bottom: -13%;
+}
+}
 @media only screen and (max-width: 37.5em) {
   .home-hero__mouse-scroll-cont {
     display: none;
@@ -1552,12 +1529,16 @@ bottom: -45%;
 
 .home-hero__card{
   border-radius: 8px;
-
 }
 
-@media only screen and (max-width: 1200px) {
-  .home-hero__card {
+@media only screen and (max-width: 620px) {
+  .home-hero__card{
 display: none;
+  }}
+@media only screen and (max-width: 1200px) {
+  .home-hero__content{
+display: flex;
+flex-direction: column;
   }
 }
 
