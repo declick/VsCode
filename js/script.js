@@ -138,6 +138,12 @@ const easterEggTrigger = document.getElementById('easterEggTrigger');
 const closeModal = document.getElementById('closeModal');
 const video = document.getElementById('easterEggVideo');
 
+video.addEventListener('timeupdate', function() {
+  if (video.currentTime === video.duration) {
+    closeModal.click();
+  }
+});
+
 easterEggTrigger.addEventListener('click', () => {
   modal.style.display = 'block';
   video.play();
