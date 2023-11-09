@@ -1305,10 +1305,7 @@ animation: shadowAnimation 3s infinite linear;
 87.5% { box-shadow: 0 0 15px rgba(255, 0, 200, 0.5); }
 100% { box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); }
 }
-.wow{
 
-
-}
 
 /* modal Menu easter egg */
 .modal {
