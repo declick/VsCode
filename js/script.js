@@ -1,5 +1,4 @@
 /* SOUS-MENU */
-
 const toggleSubMenu = (element) => {
   // Trouve le sous-menu correspondant à l'élément cliqué
   let submenu = element.querySelector('.submenu');
@@ -31,8 +30,8 @@ const toggleSubMenu = (element) => {
   }
 };
 
-/* MENU TOGGLE */
 
+/* SIDE-MENU TOGGLE */
 document.addEventListener('DOMContentLoaded',  () => {
   const toggleMenuButton = document.getElementById('toggleMenu');
   const menuOption = document.querySelector('.menu-option');
@@ -49,6 +48,7 @@ document.addEventListener('DOMContentLoaded',  () => {
     urlContainer.classList.toggle('menu-hidden');
   });
 });
+
 
 /* CONSOLE TOGGLE */
 document.addEventListener('DOMContentLoaded',  () => {
@@ -67,6 +67,8 @@ document.addEventListener('DOMContentLoaded',  () => {
 
 
 /* FILE TOGGLE */
+
+
 
 
 /* NAVIGATION */
@@ -102,8 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-/* POPUP PHOTO */
 
+/* POPUP PHOTO */
 document.addEventListener('DOMContentLoaded', () => {
   let profileIcon = document.getElementById('profileIcon');
   let profileImage = document.getElementById('profileImage');
@@ -123,10 +125,42 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+
 /* EFFET WOW*/
 
+    
 
 /* DARK MODE */      
+document.addEventListener('DOMContentLoaded',  () =>{
+  const configIcon = document.getElementById('config-icon')
+  const portfolio = document.getElementById('portfolio')
+
+  // Tableau de couleurs que je souhaite utiliser
+  let colors = ['#003847', '#181f2f', '#1e1e1e']
+
+  if (configIcon && portfolio) {
+    let colorIndex = 0; // Variable pour suivre l'index de la couleur actuelle
+
+    configIcon.addEventListener('click', function () {
+      // Change la couleur du portfolio en utilisant l'index actuel dans le tableau de couleurs
+      portfolio.style.backgroundColor = colors[colorIndex]
+
+      // Incrémente l'index pour passer à la couleur suivante
+      colorIndex++;
+
+      // Si l'index dépasse la dernière couleur, reviens à la première couleur
+      if (colorIndex === colors.length) {
+        colorIndex = 0;
+      }
+    })
+  } else {
+    console.error('Element with ID not found.')
+  }
+})
+
+
+
+
 
 
 /* TACHTBOT */
