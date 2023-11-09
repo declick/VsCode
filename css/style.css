@@ -564,13 +564,17 @@ display: none;
 
 
 #toggleConsole svg{
-  width: 25px;
+  width: 30px;
   color:#fff;
 }
 #toggleConsole:hover {
   cursor: pointer;
-
+  cursor: pointer;
+background:#3c3c3c;
+  border-radius:5px;
+  padding: 5px 0px;
 }
+
 
 @media only screen and (max-width: 920px) {
     .console {
