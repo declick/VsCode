@@ -439,6 +439,18 @@ hr {
     background: #37373d;
     color: #ccc;
 }
+.fa-star{
+ color: #ffd500;
+}
+.fa-star:hover{
+  color: rgb(255, 255, 255);
+}
+.fa-heart{
+color: #ff0000;
+}
+.fa-heart:hover{
+  color: rgb(255, 255, 255);
+  }
 .fa.fa-headphones{
   color: #fff;
 }
@@ -1140,6 +1152,40 @@ button {
   border: none;
   cursor: pointer;
 }
+.bttn-home{
+  width: 65%;
+  gap: 10px;
+}
+.bttn-support{
+  display: inline-flex;
+  align-items: center;
+  background: #334155;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+  border: 2px solid rgb(71,85,105,0.5);
+  gap: 5px;
+
+}
+.bttn-support:hover{
+  background-color: rgb(244 63 94);
+  border-color: rgb(255 255 255 / 28%);
+}
+.bttn-star{
+  background: #334155;
+  padding: 6px 8px;
+border-radius: 50%;
+  transition: all 0.3s ease;
+  border: 2px solid rgb(71,85,105,0.5);
+}
+.bttn-star:hover{
+  background-color: rgb(234 179 8);
+}
+
+
 
 textarea {
   resize: none;
