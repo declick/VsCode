@@ -439,6 +439,7 @@ hr {
     background: #37373d;
     color: #ccc;
 }
+
 .fa-star{
  color: #ffd500;
 }
@@ -1483,10 +1484,6 @@ bottom: -45%;
   transition: background .3s;
 }
 
-.home-hero__social-icon-link:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
 .home-hero__social-icon-link--bd-none {
   border-bottom: 0;
 }
@@ -1772,9 +1769,20 @@ display: none;
 }
 
 
-.wow{
+.wow {
   cursor: pointer;
 }
+
+#confetti-canvas {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
 
 .project-cs-hero {
   color: #fff;

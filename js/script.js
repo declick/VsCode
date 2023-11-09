@@ -127,9 +127,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 /* EFFET WOW*/
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function () {
+  const btn = document.getElementById('confetti-trigger');
+  const canvas = document.querySelector('#confetti-canvas');
 
+  const onButtonClick = (event) => {
+    // Récupére les coordonnées du bouton
+    const buttonRect = event.target.getBoundingClientRect();
+    const buttonX = buttonRect.left + buttonRect.width / 2;
+    const buttonY = buttonRect.top + buttonRect.height / 2;
+
+    // Calcule les coordonnées de départ des confettis par rapport au bouton
+    const startX = window.innerWidth / 2;
+    const startY = window.innerHeight;
+    
+    let myConfetti = confetti.create(canvas, {
+      resize: true,
+      useWorker: true
+    });
+    myConfetti({
+      particleCount: 100,
+      spread: 160,
+      origin: { x: buttonX / window.innerWidth, y: buttonY / window.innerHeight }
+    });
+  }
+
+  btn.addEventListener('click', onButtonClick);
 });
+
+
+
 
 
 /* EASTER EGG */
@@ -191,10 +218,6 @@ document.addEventListener('DOMContentLoaded',  () =>{
     console.error('Element with ID not found.')
   }
 })
-
-
-
-
 
 
 /* TACHTBOT */
