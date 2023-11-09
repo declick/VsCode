@@ -2155,6 +2155,9 @@ padding: 0.5rem 0.5rem;
   font-weight: 600;
   cursor: pointer;
 }
+.skills__skill-home1:hover {
+background-color:#ffffff17
+}
 
 .skills__skill-home1,
 .skills__skill-home2,
@@ -2175,14 +2178,20 @@ padding: 0.5rem 0.5rem;
   background: rgba(20,83,45,.9);
   border: 2px solid;
 }
+.skills__skill-home1:hover {
+  background: rgba(20,83,45,.5);
+  }
 .home1{
   color:rgb(0, 255, 89);
   }
 .skills__skill-home2{
 color:rgb(129, 245, 255);
-background: rgba(22,78,99,.7);
+background: rgba(22,78,99,.9);
 border: 2px solid;
 }
+.skills__skill-home2:hover {
+  background: rgba(22,78,99,.5);
+  }
 .home2{
   color:rgb(129, 245, 255);
 }
@@ -2191,6 +2200,9 @@ border: 2px solid;
   background:rgba(131,24,67,.9);
 border: 2px solid;
   }
+  .skills__skill-home3:hover {
+    background:rgba(131, 24, 67, 0.5);
+    }
   .home3{
     color: rgb(250, 209, 232);
   }
@@ -2199,6 +2211,10 @@ border: 2px solid;
     background: rgba(124,45,18,.9);
 border: 2px solid;
      }
+     .skills__skill-home4:hover {
+      background: rgba(124,45,18,.5);
+
+      }
      .home4{
       color: rgb(255, 188, 101);
        }
