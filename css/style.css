@@ -1300,9 +1300,15 @@ textarea {
   transition: opacity .3s ease-in-out;
   
 }
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
 
 .glow-on-hover:active {
-  color: #000;
+  color: #fff;
+  
 }
 
 .glow-on-hover:active:after {
@@ -1322,14 +1328,10 @@ textarea {
   height: 100%;
   left: 0;
   top: 0;
-  border-radius: 10px;
+  border-radius: 8px;  
+  background: #1e1e1e;
 }
 
-@keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
-}
 
 .sec-pad {
   padding: 12rem 0;
