@@ -217,13 +217,14 @@ display: none;
   content: attr(data-tooltip);
   position: absolute;
   top: 50%;
-  left: 100%;
+  left: 85%;
   transform: translate(10px, -50%);
   opacity: 0;
   background-color: #1e1e1e;
-  color: #ccc;
-  padding: 5px 10px;
+  color: #fff;
+  padding: 2px 5px;
   border-radius: 6px;
+  font-size: smaller;
   white-space: nowrap;
   z-index: 999;
 }
