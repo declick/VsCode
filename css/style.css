@@ -1484,6 +1484,7 @@ display: none;
   height: 380px;
   background: rgb(30, 41, 59);
   border-radius: 8px;
+  cursor: pointer;
   overflow: hidden;
   box-shadow: 11px 11px 5px 0px rgba(0,0,0,0.75), rgba(72, 247, 142, 0.22) -180px -51px 200px 0px, 
   rgb(12, 247, 255) 64px -50px 200px 0px;
