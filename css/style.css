@@ -1485,7 +1485,7 @@ display: none;
   background: rgb(30, 41, 59);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: rgba(72, 247, 142, 0.22) -180px -51px 200px 0px, 
+  box-shadow: 11px 11px 5px 0px rgba(0,0,0,0.75), rgba(72, 247, 142, 0.22) -180px -51px 200px 0px, 
   rgb(12, 247, 255) 64px -50px 200px 0px;
 
 
@@ -2168,25 +2168,33 @@ padding: 0.5rem 0.5rem;
   font-size: 0.9em;
 }
 .skills__skill-home1{
-  color:rgb(0, 255, 89);
+  color: rgb(0, 255, 89);
+  background: rgba(20,83,45,.9);
+  border: 2px solid;
 }
 .home1{
   color:rgb(0, 255, 89);
   }
 .skills__skill-home2{
 color:rgb(129, 245, 255);
+background: rgba(22,78,99,.7);
+border: 2px solid;
 }
 .home2{
   color:rgb(129, 245, 255);
 }
 .skills__skill-home3{
   color: rgb(250, 209, 232);
+  background:rgba(131,24,67,.9);
+border: 2px solid;
   }
   .home3{
     color: rgb(250, 209, 232);
   }
   .skills__skill-home4{
     color: rgb(255, 188, 101);
+    background: rgba(124,45,18,.9);
+border: 2px solid;
      }
      .home4{
       color: rgb(255, 188, 101);
