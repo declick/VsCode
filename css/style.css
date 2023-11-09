@@ -1737,12 +1737,14 @@ display: none;
 
 .projects__row-img-cont {
   overflow: hidden;
+
 }
 
 .projects__row-img {
   width: 100%;
   display: block;
   object-fit: cover;
+  filter: drop-shadow(5px 5px 10px #000000);
 }
 
 .projects__row-content {
@@ -1921,6 +1923,7 @@ display: none;
 
 .project-details__showcase-img {
   width: 100%;
+  filter: drop-shadow(5px 5px 10px #000000);
 }
 
 .project-details__content-main {
