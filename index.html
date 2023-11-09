@@ -352,11 +352,18 @@
             <li id="toggleMenu" class="active" data-tooltip="Portfolio">
                 <i class="fa fa-copy"></i>
             </li>
-            <li data-tooltip="Easter Egg">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" aria-label="Video Easter Egg">
-                    <i class="fa fa-code-branch"></i>
-                </a>
-            </li>
+            <div id="videoModal" class="modal">
+                <div class="modal-content">
+                  <span class="close" id="closeModal"></span>
+                  <video id="easterEggVideo" width="800" height="600" >
+                    <source src="./assets/video/math_is_crushed_by_programming.mp4" type="video/mp4">
+                    Votre navigateur ne prend pas en charge la lecture de la vidéo.
+                  </video>
+                </div>
+              </div>
+              <li data-tooltip="Easter Egg" id="easterEggTrigger">
+                <i class="fa fa-code-branch"></i>
+              </li>
             <li data-tooltip="Resume">
                 <a href="./ressources/CV Quentin Minziere.pdf" target="_blank" aria-label="link Resume">
                     <i class="fa fa-play"></i>
@@ -527,7 +534,7 @@
                     <p class="about__content-details-para" id="wowParagraph">
                         I love writing code building websites, automated API integrations, building my own
                         developer
-                        tools, and creating stunning user experiences that make you feel <i>WOW !</i></p>
+                        tools, and creating stunning user experiences that make you feel <i class="wow">WOW !</i></p>
                     <p class="about__content-details-para">
                         I am always eager to learn and explore new technologies, frameworks and programming
                         languages.
