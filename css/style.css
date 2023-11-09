@@ -1368,7 +1368,7 @@ textarea {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -20%;
+  bottom: -13%;
 }
 .home-hero__mouse-scroll-cont.console-hidden{
 bottom: -50%;
@@ -1448,7 +1448,7 @@ bottom: -50%;
   text-align: center;
   gap: 100px;
   align-items: center;
-  margin:3rem;
+  margin:2.5rem;
   margin-bottom: 8rem;
 }
 
@@ -2197,7 +2197,7 @@ color:rgb(129, 245, 255);
   height: 40px;
   border: 2px solid #eee;
   border-radius: 60px;
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
 
