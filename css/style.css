@@ -1160,24 +1160,13 @@ textarea {
   }
 }
 .heading-sec__mb-bg {
-  margin-bottom: 11rem;
-}
-
-@media only screen and (max-width: 56.25em) {
-  .heading-sec__mb-bg {
-    margin-bottom: 8rem;
-  }
+  margin-bottom: 8rem;
 }
 
 .heading-sec__mb-med {
   margin-bottom: 8rem;
 }
 
-@media only screen and (max-width: 56.25em) {
-  .heading-sec__mb-med {
-    margin-bottom: 8rem;
-  }
-}
 
 .heading-sec__main {
   display: block;
