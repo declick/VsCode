@@ -127,8 +127,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 /* EFFET WOW*/
+document.addEventListener('DOMContentLoaded', () => {
 
-/* EASTER EGGE */
+});
+
+
+/* EASTER EGG */
 const modal = document.getElementById('videoModal');
 const easterEggTrigger = document.getElementById('easterEggTrigger');
 const closeModal = document.getElementById('closeModal');
@@ -152,6 +156,7 @@ window.addEventListener('click', (event) => {
     video.currentTime = 0;
   }
 });  
+
 
 /* DARK MODE */      
 document.addEventListener('DOMContentLoaded',  () =>{

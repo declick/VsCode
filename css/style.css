@@ -1304,7 +1304,8 @@ animation: shadowAnimation 3s infinite linear;
 
 
 }
-/* Ajoutez ces styles pour la fenêtre modale */
+
+/* modal Menu easter egg */
 .modal {
   display: none;
   position: fixed;
@@ -1317,13 +1318,21 @@ animation: shadowAnimation 3s infinite linear;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.7);
 }
-
 .modal-content {
   margin: 5% auto;
   padding: 20px;
   width: 80%;
   max-width: 800px;
   position: relative;
+}
+@media screen and (max-width: 720px) {
+  .modal-content {
+    width: 90%;
+  }
+  #easterEggVideo {
+    width: 100%;
+    height: auto;
+  }
 }
 
 
