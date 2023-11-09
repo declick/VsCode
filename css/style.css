@@ -1148,7 +1148,7 @@ button {
   transform: translate(-10px, 200%);
   opacity: 0;
   background-color: #fff;
-  color: #3c3c3c;
+  color: #334155; 
   padding: 5px 7px;
   border-radius: 6px;
   font-size: smaller;
@@ -1180,7 +1180,7 @@ font-weight: 600;
   transform: translate(-40px, 250%);
   opacity: 0;
   background-color: #fff;
-  color: #3c3c3c;
+  color: #334155; 
   padding: 5px 7px;
   border-radius: 6px;
   font-size: smaller;
@@ -1685,6 +1685,64 @@ flex-direction: column;
 
 .about__content-details-para:last-child {
   margin-bottom: 4rem;
+}
+
+.myLife{
+  display:flex;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+  gap: 20px;
+}
+@media only screen and (max-width: 480px) {
+.myLife{
+ display: none;
+}
+}
+  .custom-figure {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: help;
+  }
+
+.custom-span {
+    background-image: linear-gradient(to right, #00BFFF, #1E90FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-weight: 700;
+  
+}
+
+.custom-figcaption {
+  font-size: 0.9rem;
+  font-weight: bold;
+  size: 700;
+  text-align: center;
+  color: #ccc;
+}
+
+
+.custom-figure::before {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: -70%; 
+  left: 50%; 
+  transform: translateX(-50%);
+  white-space: nowrap; 
+  background-color: #ffffff; 
+  color: #334155; 
+  padding: 0.4rem; 
+  border-radius: 6px;
+  font-size: 0.9rem; 
+  opacity: 0; 
+}
+
+.custom-figure:hover::before {
+  opacity: 1; 
 }
 
 
