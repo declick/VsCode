@@ -1313,6 +1313,9 @@ textarea {
   box-shadow: none;
   padding: calc(1.5rem - 2px) calc(5rem - 2px);
 }
+.glow{
+  animation: shadowAnimation 7s infinite linear;
+}
 
 .glow:hover {
   box-shadow: 
