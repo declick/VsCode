@@ -8,7 +8,7 @@
 body {
     background-color: #1e1e1e;
 }
-.projects__row-img-cont img {
+.projects__row-img-cont>img {
   width: 80%;
   height: auto;
 }
