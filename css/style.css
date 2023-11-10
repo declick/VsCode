@@ -1212,8 +1212,8 @@ textarea {
   font-size: 3rem;
   line-height: 1;
   font-weight: 700;
-  text-align: center;
-  width: 64%;
+  text-align: start;
+  width: 62%;
 }
 @media only screen and (max-width: 480px) {
   .heading-primary {
@@ -1441,7 +1441,7 @@ display: none;
 }
 
 .home-hero__mouse-scroll-cont.console-hidden{
-bottom: -13%;
+bottom: -11%;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1640,6 +1640,7 @@ flex-direction: column;
   text-align: center;
   gap: 20px;
   display: inline-flex;
+  width: 62%;
 }
 
 @media only screen and (max-width: 580px) {
@@ -1680,7 +1681,15 @@ flex-direction: column;
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 1rem;
-  width: 80%;
+}
+
+.about__content-details {
+  color: #fff;
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+  width: 62%;
+  text-align: start;
 }
 
 .about__content-details-para--hl {
