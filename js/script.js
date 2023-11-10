@@ -32,7 +32,7 @@ const toggleSubMenu = (element) => {
 
 
 /* SIDE-MENU TOGGLE */
-document.addEventListener('DOMContentLoaded',  () => {
+document.addEventListener('DOMContentLoaded', () => {
   const toggleMenuButton = document.getElementById('toggleMenu');
   const menuOption = document.querySelector('.menu-option');
   const console = document.querySelector('.console');
@@ -40,27 +40,50 @@ document.addEventListener('DOMContentLoaded',  () => {
   const tabsContainer = document.querySelector('.tabs-container');
   const urlContainer = document.querySelector('.url-container');
 
+  // Fonction pour désactiver le bouton
+  const disableToggleMenuButton = () => {
+    toggleMenuButton.disabled = true;
+  };
+
+  // Vérifie la largeur de la fenêtre lors du chargement de la page
+  if (window.innerWidth < 920) {
+    disableToggleMenuButton();
+  }
+
   toggleMenuButton.addEventListener('click', () => {
-    menuOption.classList.toggle('hidden');
-    console.classList.toggle('menu-hidden');
-    portfolio.classList.toggle('menu-hidden');
-    tabsContainer.classList.toggle('menu-hidden');
-    urlContainer.classList.toggle('menu-hidden');
+    // Vérifie à nouveau la largeur de la fenêtre avant de permettre le clic
+    if (window.innerWidth >= 920) {
+      menuOption.classList.toggle('hidden');
+      console.classList.toggle('menu-hidden');
+      portfolio.classList.toggle('menu-hidden');
+      tabsContainer.classList.toggle('menu-hidden');
+      urlContainer.classList.toggle('menu-hidden');
+    }
   });
 });
 
 
 /* CONSOLE TOGGLE */
 document.addEventListener('DOMContentLoaded',  () => {
-  const toggleMenuButton = document.getElementById('toggleConsole');
+  const toggleConsole = document.getElementById('toggleConsole');
   const menuOption = document.querySelector('.console');
   const portfolio = document.querySelector('.portfolio');
   const mouse = document.querySelector('.home-hero__mouse-scroll-cont');
 
-  toggleMenuButton.addEventListener('click', () => {
+  const disableToggleConsole = () => {
+    toggleConsole.disabled = true;
+  };
+
+  if (window.innerWidth < 920) {
+    disableToggleConsole();
+  }
+
+  toggleConsole.addEventListener('click', () => {
+    if (window.innerWidth >= 920) {
     menuOption.classList.toggle('hidden');
     portfolio.classList.toggle('console-hidden');
     mouse.classList.toggle('console-hidden');
+    }
   });
 });
 
