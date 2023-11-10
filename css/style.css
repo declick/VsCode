@@ -1382,7 +1382,9 @@ animation: shadowAnimation 3s infinite linear;
   }
 }
 
-
+.f-pad{
+  padding-bottom: 12rem;
+}
 .sec-pad {
   padding: 12rem 0;
 }
