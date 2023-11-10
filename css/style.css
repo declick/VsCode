@@ -1748,6 +1748,42 @@ flex-direction: column;
 }
 
 
+
+
+/* Styles for Training and Certification Sections */
+.container-tc {
+  display: flex;
+  justify-content: space-between;
+
+}
+.training, .certifications {
+  flex-basis: 48%;
+}
+
+.section-header {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.item {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+
+.item p {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+
+
+
+
 .projects__row {
   display: grid;
   grid-template-columns: 1fr 1fr;
