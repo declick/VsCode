@@ -1407,6 +1407,8 @@ animation: shadowAnimation 3s infinite linear;
 }
 
 .home-hero {
+  display: flex;
+  justify-content: center;
   color: #fff;
   background-position: center;
   position: relative;
@@ -1436,11 +1438,11 @@ display: none;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -50%;
+  bottom: -20%;
 }
 
 .home-hero__mouse-scroll-cont.console-hidden{
-bottom: -11%;
+bottom: 11%;
 }
 
 @media only screen and (max-width: 1200px) {
