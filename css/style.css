@@ -1429,10 +1429,10 @@ display: none;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -4%;
+  bottom: -13%;
 }
 .home-hero__mouse-scroll-cont.console-hidden{
-bottom: -45%;
+bottom: -50%;
 }
 @media only screen and (max-width: 1200px) {
 .home-hero__mouse-scroll-cont.console-hidden{
@@ -1756,6 +1756,13 @@ flex-direction: column;
   justify-content: space-between;
 
 }
+@media only screen and (max-width: 56.25em) {
+  .container-tc {
+    display: flex;
+    flex-direction: column;
+
+  }}
+
 .training, .certifications {
   flex-basis: 48%;
 }
@@ -2307,7 +2314,6 @@ border: 2px solid;
   height: 40px;
   border: 2px solid #eee;
   border-radius: 60px;
-  position: absolute;
   overflow: hidden;
 }
 
