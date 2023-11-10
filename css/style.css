@@ -8,7 +8,9 @@
 body {
     background-color: #1e1e1e;
 }
-img{
+img,
+img.projects__row-img,
+img.main-footer__icon{
   width:100%;
   height: auto;
 }
