@@ -9,7 +9,7 @@ body {
     background-color: #1e1e1e;
 }
 .projects__row-img-cont img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 .header {
@@ -2199,7 +2199,10 @@ flex-direction: column;
 .main-footer__social-cont {
   margin-top: 2rem;
 }
-
+.main-footer__social-cont img{
+ width: 10%; 
+ height: auto;
+}
 .main-footer__icon {
   margin-right: 1rem;
   width: 2.5rem;
