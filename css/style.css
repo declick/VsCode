@@ -1511,9 +1511,8 @@ bottom: -13%;
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 100px;
   align-items: center;
-  margin:2.5rem;
+  margin:3rem;
   margin-bottom: 8rem;
 }
 
