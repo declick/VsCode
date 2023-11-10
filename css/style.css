@@ -591,6 +591,20 @@ display: none;
   height: calc(100% - 124px);
 }
 
+@media only screen and (max-width: 720px) {
+  .portfolio.console-hidden {
+    bottom: 25px;
+    height: calc(100% - 122px);
+
+  }
+}
+@media only screen and (max-width: 480px) {
+  .portfolio.console-hidden {
+    bottom: 25px;
+    height: calc(100% - 25px);
+
+  }
+}
 
 
 
