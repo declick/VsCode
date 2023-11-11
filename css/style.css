@@ -1127,11 +1127,16 @@ button {
   border: none;
   cursor: pointer;
 }
+
 .bttn-home{
-  width: 34%;
+  width: 55%;
 }
-
-
+@media only screen and (max-width: 1200px) {
+  .bttn-home{
+    width: 34%;
+  }
+  }
+  
 .bttn-support{
   display: inline-flex;
   align-items: center;
@@ -1442,7 +1447,7 @@ display: none;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -20%;
+  bottom: -11%;
 }
 
 .home-hero__mouse-scroll-cont.console-hidden{
@@ -1555,10 +1560,9 @@ margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   text-align: center;
-  align-items: center;
-  margin:3rem;
-  margin-bottom: 8rem;
-  gap: 66px;
+  align-items: flex-start;
+  margin: 3rem;
+  gap: 80px;
 }
 
 @media only screen and (max-width: 920px) {
@@ -1919,7 +1923,34 @@ padding: 0;
 }
 }
 
+.badge-content{
+  display: flex;
+  background: rgb(30, 41, 59);
+  border: 2px solid rgb(71,85,105,0.5);
+  border-radius: 8px;
+  width: 200px;
+  bottom: 135px;
+  left: -162px;
+  z-index: 2;
+  position: relative;
 
+}
+.badge-content p {
+  font-size: small;
+  color: #CBD5E1E6;
+  width: 200px;
+}
+@media only screen and (max-width: 1200px) {
+  .badge-content{
+    bottom: 397px;
+    left: 321px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .badge-content{
+display: none;
+  }
+}
 #confetti-canvas {
   position: fixed;
   z-index: 999;
