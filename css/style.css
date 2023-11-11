@@ -1594,6 +1594,8 @@ display: none;
   font-family: "Fira Code", monospace;
 }
 
+
+
 .content-card{
   margin-left: 6px;
   margin-top: -26px;
@@ -1673,6 +1675,11 @@ display: none;
 
 .about {
   color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+.about {
+padding: 0;
+}
 }
 
 .about__content {
