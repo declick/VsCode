@@ -1528,6 +1528,7 @@ bottom: 11%;
   padding: 8px 16px;
   gap: 10px;
 background: #12FD7F0A;
+margin-bottom: 1rem;
 }
 .textOpen{
   color:#03E26B ;
@@ -1896,6 +1897,16 @@ display: none;
 
 .wow {
   cursor: pointer;
+  text-shadow: -1px 9px 9px #f50f0f;
+  animation: flicker 3s linear infinite;
+}
+@keyframes flicker {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: 0.99;
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    opacity: 0.4;
+  }
 }
 
 #confetti-canvas {
