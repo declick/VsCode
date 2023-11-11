@@ -1129,7 +1129,7 @@ button {
 }
 
 .bttn-home{
-  width: 55%;
+  width: 60%;
 }
 @media only screen and (max-width: 1200px) {
   .bttn-home{
@@ -1147,7 +1147,7 @@ button {
   font-weight: 600;
   transition: all 0.3s ease;
   margin: 10px 0;
-  border: 2px solid rgb(71,85,105,0.5);
+  border: 2px solid rgb(71,85,105,0.7);
   gap: 5px;
 
 }
@@ -1183,7 +1183,7 @@ button {
 border-radius: 50%;
 font-weight: 600;
   transition: all 0.3s ease;
-  border: 2px solid rgb(71,85,105,0.5);
+  border: 2px solid rgb(71,85,105,0.7);
 
 }
 
@@ -1447,18 +1447,14 @@ display: none;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -11%;
+  bottom: 9%;
 }
-
-.home-hero__mouse-scroll-cont.console-hidden{
-bottom: 11%;
-}
-
 @media only screen and (max-width: 1200px) {
   .home-hero__mouse-scroll-cont {
     display: none;
   }
 }
+
 .home-hero__info{
   display: flex;
   justify-content: center;
@@ -1582,6 +1578,8 @@ margin-bottom: 1rem;
 
 .home-hero__card{
   border-radius: 8px;
+  bottom: -80px;
+  position: relative;
 }
 
 @media only screen and (max-width: 620px) {
@@ -1600,7 +1598,7 @@ display: none;
   overflow: hidden;
   box-shadow: 11px 11px 5px 0px rgba(0,0,0,0.75), rgba(72, 247, 142, 0.22) -180px -51px 200px 0px, 
   rgb(12, 247, 255) 64px -50px 200px 0px;
-  border: 2px solid rgb(71,85,105,0.5);
+  border: 2px solid rgb(71,85,105,0.7);
   font-family: "Fira Code", monospace;
 }
 
@@ -1679,6 +1677,156 @@ display: none;
 .btn-card:nth-child(3){
   background: #02e656;
 }
+
+/* CAARD LINKEDIN */
+.wrapper-l {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 190px;
+  left: -335px;
+  position: relative;
+  font-size: small;
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper-l{
+    bottom: 129px;
+    left: 148px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .wrapper-l{
+display: none;
+  }
+}
+
+
+.card-l {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  height: auto;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #334155;
+  border: 2px solid rgb(71,85,105,0.7);
+  color: #CBD5E1E6;
+
+}
+
+
+.anime-float{
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+
+  0%, 100% {
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(2, 132, 199, 0.2) 0px 25px 50px -12px;
+    transform: translate(0,0);
+
+  }
+
+  50% {
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(2, 132, 199, 0.2) 0px 10px 25px -3px, rgba(2, 132, 199, 0.2) 0px 4px 6px -4px;
+    transform: translate(4px,20px);
+
+  }
+
+}
+.user-l {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-l {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.ava {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-l {
+  font-size: 30px;
+  color: #1da1f2;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: flex-start;
+}
+
+.username .name {
+  color: #fff;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.username .uname {
+  color: #CBD5E1E6;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.linked{
+  text-align: start;
+}
+.linked .tag {
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+.insight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #CBD5E1E6;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.like1 {
+
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+  color: #CBD5E1E6;
+
+}
+
+.like2 {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #CBD5E1E6;
+
+}
+.like-value{
+  font-weight: 700;
+  font-size: bold; ;
+  color: #fff;
+}
+
+.follow{
+  color: #fff;
+  padding: 5px 10px;
+  background: #1da1f2;
+  border-radius: 50px;
+}
+
 
 
 
@@ -1923,36 +2071,7 @@ padding: 0;
     filter: drop-shadow(0px 10px 5px  rgb(131,24,67,0.9)); 
 }
 }
-/*
-.badge-content{
-  display: flex;
-  background: rgb(30, 41, 59);
-  border: 2px solid rgb(71,85,105,0.5);
-  border-radius: 8px;
-  width: 200px;
-  bottom: 135px;
-  left: -162px;
-  z-index: 2;
-  position: relative;
 
-}
-.badge-content p {
-  font-size: small;
-  color: #CBD5E1E6;
-  width: 200px;
-}
-@media only screen and (max-width: 1200px) {
-  .badge-content{
-    bottom: 397px;
-    left: 321px;
-  }
-}
-@media only screen and (max-width: 680px) {
-  .badge-content{
-display: none;
-  }
-}
-*/
 #confetti-canvas {
   position: fixed;
   z-index: 999;
