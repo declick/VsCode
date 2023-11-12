@@ -8,10 +8,7 @@
 body {
     background-color: #1e1e1e;
 }
-.projects__row-img-cont>img {
-  width: 100%;
-  height: auto;
-}
+
 .header {
     background: #3c3c3c;
     padding: 3px;
@@ -2066,7 +2063,10 @@ aspect-ratio: 1/1;
   overflow: hidden;
 
 }
-
+.projects__row-img-cont>img {
+  width: 100%;
+  height: auto;
+}
 .projects__row-img {
   width: 100%;
   display: block;
