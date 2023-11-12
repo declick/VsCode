@@ -1957,6 +1957,15 @@ padding: 0;
 .timeline{
 	color:#CBD5E1E6;
 }
+.timeline-ico{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.timeline-img{
+  width:10%;
+  height:10%;
+}
 .timeline ul{
 	list-style-type:none;
 	border-left:2px solid rgba(153, 153, 153, 0.2);
