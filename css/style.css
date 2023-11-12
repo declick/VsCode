@@ -2106,7 +2106,7 @@ padding: 0;
     filter: none;
   }
   50%, 5% {
-    filter: drop-shadow(0px 10px 5px  rgb(131 24 24)); 
+filter: drop-shadow(0px 10px 5px  rgb(131 24 24)); 
 }
 }
 
@@ -2468,7 +2468,7 @@ padding: 0;
 }
 
 .skills__skill {
-padding: 0.5rem 0.5rem;
+padding: 0.2rem 0.4rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
     background: rgba(153, 153, 153, 0.2);
@@ -2476,6 +2476,10 @@ padding: 0.5rem 0.5rem;
     font-weight: 600;
     color: #fff;
       cursor: pointer;
+      border: 2px solid #757474;
+}
+.skills__skill:hover {
+  background-color:rgb(40 40 40 / 50%);
 }
 .skills-projects {
   display: flex;
@@ -2488,21 +2492,21 @@ padding: 0.5rem 0.5rem;
   margin-bottom: 0.5rem;
   margin-right: 0.5rem;
   background: rgba(153, 153, 153, 0.2);
+  border: 2px solid #757474;
   border-radius: 5px;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
 }
-
+.skills__skill-projects:hover {
+  background-color:rgb(40 40 40 / 50%);
+}
 .skills-home {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 10px;
   font-weight: 600;
   cursor: pointer;
-}
-.skills__skill-home1:hover {
-background-color:#ffffff17
 }
 
 .skills__skill-home1,
@@ -2514,7 +2518,6 @@ background-color:#ffffff17
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   margin-right: 0.5rem;
-  background: rgba(63, 69, 75);
   border-radius: 5px;
   color: #fff;
   font-size: 0.9em;
@@ -2525,7 +2528,7 @@ background-color:#ffffff17
   border: 2px solid;
 }
 .skills__skill-home1:hover {
-  background: rgba(20,83,45,.5);
+  background: rgba(20,83,45,.5) ;
   }
 .home1{
   color:rgb(0, 255, 89);
