@@ -180,8 +180,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
-
 /* EASTER EGG */
 const modal = document.getElementById('videoModal');
 const easterEggTrigger = document.getElementById('easterEggTrigger');
