@@ -1300,7 +1300,7 @@ textarea {
   letter-spacing: 2px;
   display: inline-block;
   border-radius: 5px;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
   transition: transform .3s;
   border: 1px solid;
 }
@@ -1314,7 +1314,7 @@ textarea {
   letter-spacing: 2px;
   display: inline-block;
   border-radius: 5px;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
   transition: transform .3s;
   border: 1px solid;
 }
