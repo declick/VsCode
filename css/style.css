@@ -1952,6 +1952,7 @@ padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem;
+
   }
   @media only screen and (max-width: 56.25em) {
     .training-content {
@@ -1969,8 +1970,8 @@ padding: 0;
   gap: 13px;
 }
 .timeline-img{
-  width:8%;
-  height:8%;
+  width:10%;
+aspect-ratio: 1/1;
 }
 .timeline ul{
 	list-style-type:none;
