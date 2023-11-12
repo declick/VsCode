@@ -1710,7 +1710,7 @@ display: none;
 @keyframes float {
 
   0%, 100% {
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(2, 132, 199, 0.2) 0px 25px 50px -12px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(2, 132, 199, 0.2) 0px 25px 50px -12px ;
     transform: translate(0,0);
 
   }
@@ -1775,6 +1775,7 @@ display: none;
 }
 .linked .tag {
   text-decoration: none;
+
   color: #1da1f2;
 }
 
