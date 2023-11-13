@@ -1,3 +1,4 @@
+
 const data = {
   "english":
   {
@@ -72,7 +73,7 @@ const data = {
     &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>MySQL<br>&nbsp;&nbsp;&nbsp;FireBase</span></span><br><br>
     &nbsp;&nbsp;&nbsp;Tools I often use:<br><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>Git<br>&nbsp;&nbsp;&nbsp;GitHub<br>&nbsp;&nbsp;&nbsp;Visual Studio Code<br>&nbsp;&nbsp;&nbsp;Figma</span></span><br><br>
-    &nbsp;&nbsp;&nbsp;I often work under the operating system  <span class='bold'>Linux.</span></span><br>
+    &nbsp;&nbsp;&nbsp;I often work under the operating system  <span class='home4'>Linux.</span></span><br>
   }`,
 
   "education" : `{<br>
@@ -280,7 +281,7 @@ const data = {
     &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>MySQL<br>&nbsp;&nbsp;&nbsp;FireBase</span></span><br><br>
     &nbsp;&nbsp;&nbsp;Les outils que j'ulise souvent :<br><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>Git<br>&nbsp;&nbsp;&nbsp;GitHub<br>&nbsp;&nbsp;&nbsp;Visual Studio Code<br>&nbsp;&nbsp;&nbsp;Figma</span></span><br><br>
-    &nbsp;&nbsp;&nbsp;Je travaille souvent sous le système d'exploitation <span class='bold'>Linux.</span></span><br>
+    &nbsp;&nbsp;&nbsp;Je travaille souvent sous le système d'exploitation <span class='home4'>Linux.</span></span><br>
   }`,
 
   "education" : `{<br>
@@ -483,13 +484,13 @@ function setLanguage(){
 }
 
 
-french.addEventListener("click", function(){
+french.addEventListener("click", () => {
   language = "french";
   localStorage.setItem('language', language);
   setLanguage();
 });
 
-english.addEventListener("click", function(){
+english.addEventListener("click", () => {
   language = "english";
   localStorage.setItem('language', language);
   setLanguage();

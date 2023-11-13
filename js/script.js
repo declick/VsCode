@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   };
 
-  // Écouter les clics sur les éléments du menu
+  // Écoute les clics sur les éléments du menu
   let menuItems = document.querySelectorAll('.show-pre li');
   menuItems.forEach((menuItem) => {
       menuItem.addEventListener('click', (e) => {
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
 
-  // Écouter les clics sur les onglets
+  // Écoute les clics sur les onglets
   let tabItems = document.querySelectorAll('.tabs-container .tabs');
   tabItems.forEach((tabItem) => {
       tabItem.addEventListener('click', (e) => {
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 /* EFFET WOW*/
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded',  () => {
   const btn = document.getElementById('confetti-trigger');
   const canvas = document.querySelector('#confetti-canvas');
 
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded',  () =>{
   if (configIcon && portfolio) {
     let colorIndex = 0; // Variable pour suivre l'index de la couleur actuelle
 
-    configIcon.addEventListener('click', function () {
+    configIcon.addEventListener('click', () => {
       // Change la couleur du portfolio en utilisant l'index actuel dans le tableau de couleurs
       portfolio.style.backgroundColor = colors[colorIndex]
 
@@ -314,21 +314,21 @@ function logKey(e){
   }
 
 
-  if (e.key === 'Tab'){
-    if (y === -1){
-      if(result[0] === "g"){
+  if (e.key === 'Tab') {
+    if (y === -1) {
+      if (result[0] === "g") {
         input.value = "Quentin\\ MINZIERE/";
-      } 
-      if(result[0] === "c" && !result.includes(" ") && result[1] !== "d"){
+      }
+      if (result[0] === "c" && !result.includes(" ") && result[1] !== "d") {
         input.value = "clear";
       }
-    } else if (y === 0){
-      if(result[0] === "a" && language === "french"){
+    } else if (y === 0) {
+      if (result[0] === "a" && language === "french") {
         input.value = "a propos";
-      } else if (result[0] === "a" && language === "english"){
+      } else if (result[0] === "a" && language === "english") {
         input.value = "about me";
       }
-      if(result[0] === "c" && !result.includes(" ") && result[1] !== "d"){
+      if (result[0] === "c" && !result.includes(" ") && result[1] !== "d") {
         input.value = "clear";
       }
       if(result[0] === "e"){
@@ -392,10 +392,10 @@ function logKey(e){
     e.preventDefault();
   }
 
-  if(e.key === 'Enter'){
-    if(result === ""){
+  if (e.key === 'Enter') {
+    if (result === "") {
       e.preventDefault();
-    }else{
+    } else {
       a = 0;
       historic.unshift(result);
       let answer = document.getElementById(`answer${i}`);
@@ -404,7 +404,7 @@ function logKey(e){
       answer.insertAdjacentHTML("beforeend", `<p class="resultwrite">${input.value}</p>`);
       i++;
 
-      if (y === -1){
+      if (y === -1) {
         
        
       } else 
@@ -487,15 +487,13 @@ function logKey(e){
       } else {
         terminal = document.getElementById("terminal");
         terminal.insertAdjacentHTML("beforeend", `<i class="far fa-lightbulb">&nbsp;<p class="commande" id="answer${i}">PS C:/Desktop/VsCode:~/portfolio$</p><input type="text" class="input" id="input${i}" tabindex="-1">`);
-        document.getElementById(`input${i}`).focus();        
+        document.getElementById(`input${i}`).focus();
       }
       document.getElementById(`input${i}`).focus();
-     
       terminalBody.scrollTop = terminalBody.scrollHeight;
     }
   }
-}
-
+};
 
 
 /* MINIMAP */
