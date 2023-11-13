@@ -2,14 +2,14 @@
 const data = {
   "english":
   {
-  
-    "welcome" : "Welcome to my portfolio !" + "</br>" + 
-    " <mark>&nbsp; *  History restored </mark>"+ "</br>" +
-    "guest@mirje.dev:$ ~(c) MIRJE. All rights reserved 2023." + "</br></br>" +
-    "To display the available commands type <code>help</code>." + "</br>" +
-    "To validate each command press <em>Enter</em>, you can use the <em>Tabulation</em> key to help you complete a command.",
- 
-    "help" : `<li><code>about me</code> : Display information about me</li>
+
+    "welcome": "Welcome to my portfolio !" + "</br>" +
+      " <mark>&nbsp; *  History restored </mark>" + "</br>" +
+      "guest@mirje.dev:$ ~(c) MIRJE. All rights reserved 2023." + "</br></br>" +
+      "To display the available commands type <code>help</code>." + "</br>" +
+      "To validate each command press <em>Enter</em>, you can use the <em>Tabulation</em> key to help you complete a command.",
+
+    "help": `<li><code>about me</code> : Display information about me</li>
     <li><code>experiences</code> : Displays the list of my experiences</li>
     <li><code>skills</code> : Lists all the technologies I have worked with</li>
     <li><code>education</code> : Shows my education history</li>
@@ -22,7 +22,7 @@ const data = {
     <li><em>You can use the TAB key to complete a command line</em></li>
     <li><em>You can find the old commands with the up and down arrows</em></li>`,
 
-    "aboutme" : `{<br>
+    "aboutme": `{<br>
       &nbsp;&nbsp;&nbsp;<span class='home1'>"id"</span> : "Quentin MINZIERE",<br>
       &nbsp;&nbsp;&nbsp;<span class='home1'>"formation"</span> : "600h+ in 6 months - Full-Stack Developer - Javascript",<br>
       &nbsp;&nbsp;&nbsp;<span class='home1'>"language"</span> : "HTML, CSS, JS, Node, Git",<br>
@@ -32,7 +32,7 @@ const data = {
       &nbsp;&nbsp;&nbsp;<span class='home1'>"city"</span> : "Nantes/Paris, France"<br>
     }`,
 
-    "experience" : `<tr>
+    "experience": `<tr>
     <th>Date</th>
     <th>Company</th>
     <th>Position</th>
@@ -63,7 +63,7 @@ const data = {
     <td>Opening or closing the restaurant. Post-Rush management: cash counting, inventory management, HACCP.</td>
   </tr>`,
 
-  "skills" : `{<br>
+    "skills": `{<br>
     &nbsp;&nbsp;<span class='sk'><span class='home2'>my training, I had to try out different development languages that I master today.</span><br><br>
     &nbsp;&nbsp;&nbsp;I can easily write code in the following languages:<br><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>HTML<br>&nbsp;&nbsp;&nbsp;CSS<br>&nbsp;&nbsp;&nbsp;JavaScript<br>&nbsp;&nbsp;&nbsp;Node.JS</span></span><br><br>
@@ -76,27 +76,27 @@ const data = {
     &nbsp;&nbsp;&nbsp;I often work under the operating system  <span class='home4'>Linux.</span></span><br>
   }`,
 
-  "education" : `{<br>
+    "education": `{<br>
     &nbsp;&nbsp;&nbsp;<span class='home2'>I studied as a developer within the <span class='bold'><a class='alink' target='_blank' href='https://3wacademy.fr/'>3WAcademy</a>.</span></span><br><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'>Application developer training.</span><br>&nbsp;&nbsp;&nbsp;Année : <span class='home3'>2023</span><br><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'>Full-stack developer training.</span><br>&nbsp;&nbsp;&nbsp;Année : <span class='home3'>2022<br></span><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'>Junior full-stack developer diploma.</span><br>&nbsp;&nbsp;&nbsp;Année <span class='home3'>:2023</span><br>
   }`,
 
-  "cv" : `The resume upload will begin.`,
+    "cv": `The resume upload will begin.`,
 
-  "redirectLinkedin" : `You will be redirected to Linkedin.`,
+    "redirectLinkedin": `You will be redirected to Linkedin.`,
 
-  "redirectGithub" : `You will be redirected to Github.`,
+    "redirectGithub": `You will be redirected to Github.`,
 
-  "hobby" : `{<br>
+    "hobby": `{<br>
     &nbsp;&nbsp;&nbsp;<span class='home1'>"Sport"</span> : "Hockey"<br>
     &nbsp;&nbsp;&nbsp;<span class='home1'>"Programmation"</span> : "JS, Node"<br>
     &nbsp;&nbsp;&nbsp;<span class='home1'>"Gaming"</span> : "FPS"<br>
     &nbsp;&nbsp;&nbsp;<span class='home1'>"Other"</span> : "Design, blockchaine"<br>
   }`,
 
-  "project" : `<table class="result">
+    "project": `<table class="result">
   <tr>
     <th>index</th>
     <th>Name</th>
@@ -164,11 +164,11 @@ const data = {
   </table><br>
   <p class="result"><em>You can see the site attached to the project using the command</em> <code>projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
 
-  "notfound" : `<span class="notfoundlanguage"><br><br>Type the command <code>help</code> to display the list of available commands.</p></span>`,
+    "notfound": `<span class="notfoundlanguage"><br><br>Type the command <code>help</code> to display the list of available commands.</p></span>`,
 
-  "website" : `<p class="result websiteresult">You will be redirected to the project website.</p>`,
+    "website": `<p class="result websiteresult">You will be redirected to the project website.</p>`,
 
-  "ls1" : `
+    "ls1": `
     <div>about me</div>
     <div>experiences</div>
     <div>skills</div>
@@ -188,7 +188,7 @@ const data = {
     <div>projects[7].website</div>
   `,
 
-  "ls2" : `
+    "ls2": `
     <div>about me</div>
     <div>experiences</div>
     <div>skills</div>
@@ -212,13 +212,13 @@ const data = {
 
   "french":
   {
-    "welcome" : "Bienvenue sur mon Portfolio !"  + "</br>" +
-    " <mark>&nbsp; *  History restored </mark>"+ "</br>" +
-    "guest@mirje.dev:$ ~(c) MIRJE. All rights reserved 2023." + "</br></br>" +
-    "Pour afficher les commandes disponibles tapez <code>help</code>." + "</br>" +
-    "Pour valider chaque commande appuyez sur <em>Entrer</em>, utiliser la touche <em>Tabulation</em> pour compléter une commande.",
-    
-    "help" : `<li><code>a propos</code> : Affiche les informations me concernant</li>
+    "welcome": "Bienvenue sur mon Portfolio !" + "</br>" +
+      " <mark>&nbsp; *  History restored </mark>" + "</br>" +
+      "guest@mirje.dev:$ ~(c) MIRJE. All rights reserved 2023." + "</br></br>" +
+      "Pour afficher les commandes disponibles tapez <code>help</code>." + "</br>" +
+      "Pour valider chaque commande appuyez sur <em>Entrer</em>, utiliser la touche <em>Tabulation</em> pour compléter une commande.",
+
+    "help": `<li><code>a propos</code> : Affiche les informations me concernant</li>
     <li><code>experiences</code> : Affiche la liste de mes expériences</li>
     <li><code>skills</code> : Répertorie toutes les technologies avec lesquelles j'ai travaillé</li>
     <li><code>education</code> : Affiche mon parcours scolaire</li>
@@ -231,7 +231,7 @@ const data = {
     <li><em>Vous pouvez utiliser la touche TAB afin de compléter une ligne de commande</em></li>
     <li><em>Vous pouvez retrouver les anciennes commandes avec les flèches haut et bas</em></li>`,
 
-    "aboutme" : `{<br>
+    "aboutme": `{<br>
       &nbsp;&nbsp;&nbsp;<span class='home1'>"id"</span> : "Quentin MINZIERE",<br>
       &nbsp;&nbsp;&nbsp;<span class='home1'>"formation"</span> : "600h+ en 6 mois - Développeur Full-Stack - Javascript",<br>
       &nbsp;&nbsp;&nbsp;<span class='home1'>"language"</span> : "HTML, CSS, JS, Node, Git",<br>
@@ -241,7 +241,7 @@ const data = {
       &nbsp;&nbsp;&nbsp;<span class='home1'>"city"</span> : "Nantes/Paris, France"<br>
     }`,
 
-    "experience" : `<tr>
+    "experience": `<tr>
     <th>Date</th>
     <th>Entreprise</th>
     <th>Poste</th>
@@ -271,7 +271,7 @@ const data = {
     <td>Ouverture ou fermeture du restaurant. Gestion post-Rush : comptage des caisses, gestions des stocks, HACCP.</td>
   </tr>`,
 
-  "skills" : `{<br>
+    "skills": `{<br>
     &nbsp;&nbsp;<span class='sk'><span class='home2'>Au fil de ma formation, j'ai dû m'essayer à différents langages de développement que je maîtrise aujourd'hui.</span><br><br>
     &nbsp;&nbsp;&nbsp;Je peux facilement écrire du code dans les langages suivants :<br><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'><span class='bold'>HTML<br>&nbsp;&nbsp;&nbsp;CSS<br>&nbsp;&nbsp;&nbsp;JavaScript<br>&nbsp;&nbsp;&nbsp;Node.JS</span></span><br><br>
@@ -284,27 +284,27 @@ const data = {
     &nbsp;&nbsp;&nbsp;Je travaille souvent sous le système d'exploitation <span class='home4'>Linux.</span></span><br>
   }`,
 
-  "education" : `{<br>
+    "education": `{<br>
     &nbsp;&nbsp;&nbsp;<span class='home2'>J'ai fait mes études de developpeur au sein de la <span class='bold'><a class='alink' target='_blank' href='https://3wacademy.fr/'>3WAcademy</a>.</span></span><br><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'>Formation développeur d'applications.</span><br>&nbsp;&nbsp;&nbsp;Année : <span class='home3'>2023</span><br><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'>Formation développeur full-stack.</span><br>&nbsp;&nbsp;&nbsp;Année : <span class='home3'>2022<br></span><br>
     &nbsp;&nbsp;&nbsp;<span class='home4'>Diplôme développeur full-stack Junior.</span><br>&nbsp;&nbsp;&nbsp;Année <span class='home3'>:2023</span><br>
   }`,
 
-  "cv" : `Le téléchargement du CV va commencer.`,
+    "cv": `Le téléchargement du CV va commencer.`,
 
-  "redirectLinkedin" : `Vous allez être redirigé vers Linkedin.`,
+    "redirectLinkedin": `Vous allez être redirigé vers Linkedin.`,
 
-  "redirectGithub" : `Vous allez être redirigé vers Github.`,
+    "redirectGithub": `Vous allez être redirigé vers Github.`,
 
-  "hobby" : `{<br>
+    "hobby": `{<br>
     &nbsp;&nbsp;&nbsp;<span class='home1'>"Sport"</span> : "Hockey"<br>
     &nbsp;&nbsp;&nbsp;<span class='home1'>"Programmation"</span> : "JS, Node"<br>
     &nbsp;&nbsp;&nbsp;<span class='home1'>"Gaming"</span> : "FPS"<br>
     &nbsp;&nbsp;&nbsp;<span class='home1'>"Autre"</span> : "Design, blockchaine"<br>
   }`,
 
-  "project" : `<table class="result">
+    "project": `<table class="result">
   <tr>
     <th>index</th>
     <th>Nom</th>
@@ -372,11 +372,11 @@ const data = {
   </table><br>
   <p class="result"><em>Vous pouvez voir le site rattaché au projet en utilisant la commande</em> <code>projets[index].website</code><em>, index étant le numéro associé au projet.</em></p>`,
 
-  "notfound" : `<span class="notfoundlanguage"><br><br>Tapez la commande <code>help</code> pour afficher la liste des commandes disponibles.</p></span>`,
+    "notfound": `<span class="notfoundlanguage"><br><br>Tapez la commande <code>help</code> pour afficher la liste des commandes disponibles.</p></span>`,
 
-  "website" : `<p class="result websiteresult">Vous allez être redirigé vers le site web du projet.</p>`,
+    "website": `<p class="result websiteresult">Vous allez être redirigé vers le site web du projet.</p>`,
 
-  "ls1" : `
+    "ls1": `
     <div>a propos</div>
     <div>experiences</div>
     <div>skills</div>
@@ -396,7 +396,7 @@ const data = {
     <div>projets[6].website</div>
     <div>projets[7].website</div>`,
 
-  "ls2" : `
+    "ls2": `
     <div>a propos</div>
     <div>experiences</div>
     <div>skills</div>
@@ -426,10 +426,10 @@ let language;
 
 window.addEventListener("load", setLanguage());
 
-function setLanguage(){
-  if(localStorage.getItem("language") === null){
+function setLanguage() {
+  if (localStorage.getItem("language") === null) {
     localStorage.setItem('language', "english");
-  } 
+  }
   language = localStorage.getItem("language");
   welcome.innerHTML = data[language].welcome;
   document.querySelectorAll(".helpresult").forEach(element => {
@@ -438,7 +438,7 @@ function setLanguage(){
   document.querySelectorAll(".aboutmeresult").forEach(element => {
     element.innerHTML = data[language].aboutme
   });
-  document.querySelectorAll(".experienceresult").forEach(element =>{
+  document.querySelectorAll(".experienceresult").forEach(element => {
     element.innerHTML = data[language].experience
   });
   document.querySelectorAll(".skillsresult").forEach(element => {
@@ -447,40 +447,40 @@ function setLanguage(){
   document.querySelectorAll(".educationresult").forEach(element => {
     element.innerHTML = data[language].education
   });
-  document.querySelectorAll(".cvresult").forEach(element =>{
+  document.querySelectorAll(".cvresult").forEach(element => {
     element.innerHTML = data[language].cv
   });
-  document.querySelectorAll(".redirectresultLinkedin").forEach(element =>{
+  document.querySelectorAll(".redirectresultLinkedin").forEach(element => {
     element.innerHTML = data[language].redirectLinkedin
   });
-  document.querySelectorAll(".redirectresultGithub").forEach(element =>{
+  document.querySelectorAll(".redirectresultGithub").forEach(element => {
     element.innerHTML = data[language].redirectGithub
   });
-  document.querySelectorAll(".hobbyresult").forEach(element =>{
+  document.querySelectorAll(".hobbyresult").forEach(element => {
     element.innerHTML = data[language].hobby
   });
-  document.querySelectorAll(".resultproject").forEach(element =>{
+  document.querySelectorAll(".resultproject").forEach(element => {
     element.innerHTML = data[language].project
   });
-  document.querySelectorAll(".notfoundlanguage").forEach(element =>{
+  document.querySelectorAll(".notfoundlanguage").forEach(element => {
     element.innerHTML = data[language].notfound
   });
-  document.querySelectorAll(".notfoundmenu").forEach(element =>{
+  document.querySelectorAll(".notfoundmenu").forEach(element => {
     element.innerHTML = data[language].notfoundmenu
   });
-  document.querySelectorAll(".websiteresult").forEach(element =>{
+  document.querySelectorAll(".websiteresult").forEach(element => {
     element.innerHTML = data[language].website
   });
-  document.querySelectorAll(".lsresult1").forEach(element =>{
+  document.querySelectorAll(".lsresult1").forEach(element => {
     element.innerHTML = data[language].ls1
   });
-  document.querySelectorAll(".lsresult2").forEach(element =>{
+  document.querySelectorAll(".lsresult2").forEach(element => {
     element.innerHTML = data[language].ls2
   });
-  document.querySelectorAll(".listsecretresult").forEach(element =>{
+  document.querySelectorAll(".listsecretresult").forEach(element => {
     element.innerHTML = data[language].listsecretresult
   });
-  
+
 }
 
 
