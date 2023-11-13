@@ -1,9 +1,7 @@
 /* SOUS-MENU */
 const toggleSubMenu = (element) => {
-  // Trouve le sous-menu correspondant à l'élément cliqué
   let submenu = element.querySelector('.submenu');
 
-  // Vérifie si l'élément a un sous-menu
   if (!submenu) {
     return;
   }
@@ -22,7 +20,6 @@ const toggleSubMenu = (element) => {
   submenu.style.top = rect.bottom + 'px';
   submenu.style.left = rect.left + 'px';
 
-  // Affiche ou masque le sous-menu actuel
   if (submenu.style.display === 'block') {
     submenu.style.display = 'none';
   } else {
@@ -40,12 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const tabsContainer = document.querySelector('.tabs-container');
   const urlContainer = document.querySelector('.url-container');
 
-  // Fonction pour désactiver le bouton
   const disableToggleMenuButton = () => {
     toggleMenuButton.disabled = true;
   };
 
-  // Vérifie la largeur de la fenêtre lors du chargement de la page
   if (window.innerWidth < 920) {
     disableToggleMenuButton();
   }
@@ -90,7 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /* NAVIGATION */
 document.addEventListener('DOMContentLoaded', () => {
-  // Fonction de défilement fluide
   const scrollToSection = (targetSection) => {
     let targetElement = document.getElementById(targetSection);
     if (targetElement) {
@@ -154,7 +148,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const buttonX = buttonRect.left + buttonRect.width / 2;
     const buttonY = buttonRect.top + buttonRect.height / 2;
 
-    // Calcul les coordonnées de départ des confettis par rapport au bouton
     const startX = window.innerWidth / 2;
     const startY = window.innerHeight;
 
