@@ -2089,13 +2089,14 @@ textarea {
 
 .timeline-ico {
   display: flex;
-  align-items: center;
   gap: 13px;
+  align-items: flex-start;
 }
 
 .timeline-img {
   width: 10%;
   aspect-ratio: 1/1;
+  margin-top: 5px;
 }
 
 .timeline ul {
@@ -2120,6 +2121,10 @@ textarea {
   color: #fff;
 }
 
+.timeline ul li .content-timeline span {
+  background: none;
+}
+
 .timeline ul li .content-timeline h3 {
   color: #ffffff;
   font-size: 17px;
@@ -2127,8 +2132,9 @@ textarea {
 }
 
 .timeline ul li .content-timeline p {
-  padding: 5px 0px 15px 0px;
-  font-size: 15px;
+    max-width: 60rem;
+    text-align: start;
+  
 }
 
 .timeline ul li:before {
