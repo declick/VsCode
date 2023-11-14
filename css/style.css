@@ -2130,8 +2130,7 @@ textarea {
   font-size: 17px;
   padding-top: 5px;
 }
-
-.timeline ul li .content-timeline p {
+.timeline ul li .content-timeline p span {
     max-width: 60rem;
     text-align: start;
   
