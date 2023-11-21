@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>js-dos 6.22, Arkanoid</title>
+  <script src="https://js-dos.com/6.22/current/js-dos.js"></script>
+  <style>
+    html, body, canvas, .dosbox-container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .portfolio-button-return {
+      position: absolute;
+    right: 1em;
+    background: transparent;
+    top: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(255, 255, 255, 0.2);
+    transition: transform .3s;
+    border: 1px solid;
+    padding: 10px;
+    color: white;
+    z-index: 999;
+    }
+    .portfolio-button-return:hover {
+  transform: translateY(3px);
+}
+  </style>
+</head>
+
+<body>
+
+  <canvas id="jsdos"></canvas>
+  <button class="portfolio-button-return" onclick="returnToPortfolio()">Portfolio</button>
+  <script>
+    const returnToPortfolio = () => {
+      window.location.href = "./index.html";
+    }
+
+    Dos(document.getElementById("jsdos"), { 
+      wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js",
+      cycles: 1000,
+      autolock: true,
+    }).ready( (fs, main) => {
+      fs.extract("https://js-dos.com/6.22/current/test/arkanoid.zip").then( () => {
+        main(["-c", "cd Arkanoid", "-c", "ARKANOID.COM"]).then( (ci) =>{
+          window.ci = ci;
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
