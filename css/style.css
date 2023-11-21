@@ -2637,8 +2637,68 @@ textarea {
   border: 2px solid #757474;
 }
 
-.skills__skill:hover {
-  background-color: rgb(40 40 40 / 50%);
+.HTML:hover {
+  background-color: #e34c26;
+border: 2px solid rgb(71, 85, 105, 0.7);
+  }
+  .CSS:hover {
+    background-color: #264de4;
+    border: 2px solid rgb(71, 85, 105, 0.7);
+    } 
+     .JavaScript:hover {
+      background-color: #F0DB4F;
+      border: 2px solid rgb(71, 85, 105, 0.7);
+      }
+      .React:hover{
+        background-color: #61dbfb;
+        border: 2px solid rgb(71, 85, 105, 0.7);
+      }
+      .Node:hover{
+        background-color: #68a063;
+        border: 2px solid rgb(71, 85, 105, 0.7);
+      }
+      .Express:hover{
+        background-color: #51a120;
+        border: 2px solid rgb(71, 85, 105, 0.7);
+      }
+      .SQL:hover{
+        background-color: #00758f;
+        border: 2px solid rgb(71, 85, 105, 0.7);
+      }
+      .GIT:hover{
+        background-color: #f1502f;
+        border: 2px solid rgb(71, 85, 105, 0.7);
+      }
+      .Github:hover{
+        background-color: #666666;
+        border: 2px solid rgb(71, 85, 105, 0.7);
+      }
+      .Figma:hover{
+        background-color: #9a2ff1;
+        border: 2px solid rgb(71, 85, 105, 0.7);
+      }
+
+.skills__skill::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  transform: translate(-10px, 110%);
+  opacity: 0;
+  background-color: #fff;
+  color: #334155;
+  padding: 5px 7px;
+  border-radius: 6px;
+  font-size: smaller;
+  white-space: nowrap;
+  z-index: 999;
+}
+
+.skills__skill:hover::before {
+  opacity: 1;
+}
+@media screen and (max-width: 960px) {
+  .skills__skill::before {
+ display: none;
+  }
 }
 
 .skills-projects {
@@ -2748,6 +2808,12 @@ textarea {
   border-radius: 60px;
   overflow: hidden;
 }
+
+
+
+
+
+
 
 .mouse::before {
   content: '';
